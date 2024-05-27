@@ -1,0 +1,73 @@
+[
+  {
+    "name": "John Doe",
+    "place": "Dublin, Irska",
+    "image": "/images/img-man.png",
+    "year": "2024",
+    "text": "Moje iskustvo sa Carine DMC-om bilo je izvanredno. Osoblje je bilo izuzetno ljubazno i profesionalno, pružajući mi sve potrebne informacije i podršku tokom našeg boravka. Ture su bile dobro organizovane. Svaki trenutak proveden sa ovom agencijom bio je nezaboravan, i definitivno planiram da se vratim i ponovno ih posetim.",
+    "stars": 5
+  },
+  {
+    "name": "Catherine Winston",
+    "place": "Dublin, Irska",
+    "image": "/images/img-woman.png",
+    "year": "2024",
+    "text": "Moje iskustvo sa Carine DMC-om bilo je izvanredno. Osoblje je bilo izuzetno ljubazno i profesionalno, pružajući mi sve potrebne informacije i podršku tokom našeg boravka. Ture su bile dobro organizovane. Svaki trenutak proveden sa ovom agencijom bio je nezaboravan, i definitivno planiram da se vratim i ponovno ih posetim.",
+
+    "stars": 5
+  },
+  {
+    "name": "Margaret",
+    "place": "London, UK",
+    "image": "/images/img-woman.png",
+    "year": "2024",
+    "text": "Moje iskustvo sa Carine DMC-om bilo je izvanredno. Osoblje je bilo izuzetno ljubazno i profesionalno, pružajući mi sve potrebne informacije i podršku tokom našeg boravka. Ture su bile dobro organizovane. Svaki trenutak proveden sa ovom agencijom bio je nezaboravan, i definitivno planiram da se vratim i ponovno ih posetim.",
+
+    "stars": 4
+  },
+  {
+    "name": "John Doe",
+    "place": "Dublin, Irska",
+    "image": "/images/img-man.png",
+    "year": "2024",
+    "text": "Moje iskustvo sa Carine DMC-om bilo je izvanredno. Osoblje je bilo izuzetno ljubazno i profesionalno, pružajući mi sve potrebne informacije i podršku tokom našeg boravka. Ture su bile dobro organizovane. Svaki trenutak proveden sa ovom agencijom bio je nezaboravan, i definitivno planiram da se vratim i ponovno ih posetim.",
+
+    "stars": 5
+  },
+  {
+    "name": "John Doe",
+    "place": "Dublin, Irska",
+    "image": "/images/img-man.png",
+    "year": "2023",
+    "text": "Moje iskustvo sa Carine DMC-om bilo je izvanredno. Osoblje je bilo izuzetno ljubazno i profesionalno, pružajući mi sve potrebne informacije i podršku tokom našeg boravka. Ture su bile dobro organizovane. Svaki trenutak proveden sa ovom agencijom bio je nezaboravan, i definitivno planiram da se vratim i ponovno ih posetim.",
+
+    "stars": 5
+  },
+  {
+    "name": "John Doe",
+    "place": "Dublin, Irska",
+    "image": "/images/img-man.png",
+    "year": "2023",
+    "text": "Moje iskustvo sa Carine DMC-om bilo je izvanredno. Osoblje je bilo izuzetno ljubazno i profesionalno, pružajući mi sve potrebne informacije i podršku tokom našeg boravka. Ture su bile dobro organizovane. Svaki trenutak proveden sa ovom agencijom bio je nezaboravan, i definitivno planiram da se vratim i ponovno ih posetim.",
+
+    "stars": 5
+  },
+  {
+    "name": "John Doe",
+    "place": "Dublin, Irska",
+    "image": "/images/img-man.png",
+    "year": "2023",
+    "text": "Moje iskustvo sa Carine DMC-om bilo je izvanredno. Osoblje je bilo izuzetno ljubazno i profesionalno, pružajući mi sve potrebne informacije i podršku tokom našeg boravka. Ture su bile dobro organizovane. Svaki trenutak proveden sa ovom agencijom bio je nezaboravan, i definitivno planiram da se vratim i ponovno ih posetim.",
+
+    "stars": 5
+  },
+  {
+    "name": "John Doe",
+    "place": "Dublin, Irska",
+    "image": "/images/img-man.png",
+    "year": "2023",
+    "text": "Moje iskustvo sa Carine DMC-om bilo je izvanredno. Osoblje je bilo izuzetno ljubazno i profesionalno, pružajući mi sve potrebne informacije i podršku tokom našeg boravka. Ture su bile dobro organizovane. Svaki trenutak proveden sa ovom agencijom bio je nezaboravan, i definitivno planiram da se vratim i ponovno ih posetim.",
+
+    "stars": 4
+  }
+]

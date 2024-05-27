@@ -1,0 +1,699 @@
+.hero-rent-a-car-details {
+  background: url("/images/rent-a-car.png");
+  background-size: cover;
+  height: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rent-a-car-single {
+  padding: 5%;
+  display: flex;
+}
+
+.page-width {
+  max-width: 90% !important;
+}
+
+.rent-a-car-content {
+  width: 65%;
+}
+.rent-a-car-form {
+  width: 35%;
+  padding-left: 5vw;
+}
+.rent-a-car-content h2 {
+  font-size: 4.8vh;
+}
+
+.rent-a-car-content hr {
+  border: none;
+  background-color: #b92125;
+  height: 3px;
+  width: 8%;
+  margin: 1vh 0;
+}
+
+/*Swiper*/
+
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+
+.mySwiper2 {
+  margin-top: 5vh;
+  height: 60vh;
+  width: 100%;
+}
+
+.mySwiper {
+  height: 24vh;
+  box-sizing: border-box;
+  padding: 2vh 0;
+}
+
+.mySwiper .swiper-slide {
+  width: 25%;
+  height: 100%;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.mySwiper .swiper-slide img {
+  border-radius: 12px;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.button-next,
+.button-prev {
+  position: absolute;
+  top: 50%; /* Align to the vertical center */
+  z-index: 10;
+  cursor: pointer;
+}
+
+.button-next {
+  right: 1vw;
+  transform: translateY(-50%); /* fve up by 50% of its own height */
+}
+
+.button-prev {
+  left: 1vw;
+  transform: translateY(-50%); /* Move up by 50% of its own height */
+}
+
+/**/
+
+.karakteristike {
+  display: flex;
+  margin-top: 3vh;
+  width: 110%;
+}
+
+.karakteristike-single {
+  display: flex;
+  align-items: center;
+  width: 25%;
+}
+
+.karakteristike-single-text h3 {
+  font-size: 2vh;
+  font-weight: 300;
+}
+.karakteristike-single-text h4 {
+  font-size: 2vh;
+  color: #848595;
+  font-weight: 300;
+  margin-top: 5px;
+}
+
+.karakteristike-single__icon img {
+  width: 6.8vh;
+  margin-right: 1vh;
+}
+
+.oprema-table {
+  width: 90%;
+  margin: 5vh 0;
+  border-collapse: collapse;
+}
+
+.oprema-table th {
+  background-color: #ececec;
+  color: black;
+  font-size: 2.5vh;
+  font-weight: 400;
+  padding: 15px;
+  text-align: left;
+}
+
+.oprema-table td {
+  border: 2px solid #ececec;
+  padding: 15px;
+  text-align: center;
+  font-size: 2.5vh;
+  font-weight: 300;
+}
+
+.oprema-table td:first-child {
+  text-align: left;
+}
+
+.oprema-table td img {
+  display: block;
+  margin-left: 0;
+}
+
+.rent-a-car-form h2 {
+  font-size: 3.8vh;
+  margin-top: 11vh;
+}
+
+.rent-a-car-form hr {
+  width: 10%;
+  border: none;
+  height: 3px;
+  background-color: #b92125;
+  margin: 1vh 0;
+}
+
+.form-container {
+  margin-top: 3vh;
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 400;
+  font-size: 2.5vh;
+  font-family: "Lato";
+  margin-bottom: 1vh;
+}
+
+.form-group input[type="text"] {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1.7vh;
+  background-color: #fcfbfb;
+  border-radius: 12px;
+}
+
+.form-group input::placeholder {
+  color: #848595;
+}
+
+.datetime-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.datetime-group input {
+  width: 38%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1.7vh;
+  background-color: #fcfbfb;
+
+  border-radius: 12px;
+}
+
+.form-group p {
+  margin: 3vh 0;
+  font-size: 4.8vh;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #b92125;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin: 3vh 0;
+  background-color: #b92125;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 3.8vh;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #b92126ce;
+}
+
+.other-cars {
+  padding: 0 5%;
+}
+.other-cars h2 {
+  font-size: 4.4vh;
+}
+
+.other-cars hr {
+  border: none;
+  background-color: #b92125;
+  height: 3px;
+  width: 8%;
+}
+
+.car {
+  margin: 10px;
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+
+.car img {
+  max-width: 100%;
+}
+
+.car h3 {
+  margin-top: -50px;
+  font-size: 3.8vh;
+  font-family: "Lato";
+  text-align: left;
+  font-weight: 400;
+}
+
+.car p {
+  margin: 5px 0;
+}
+.car span {
+  font-size: 1.7vh;
+  color: #848595;
+  font-weight: 300;
+}
+.rent-button {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: white;
+  background-color: #007bff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.rent-button:hover {
+  background-color: #0056b3;
+}
+.characteristics {
+  display: flex;
+  padding: 0 0 0 0;
+  align-items: center;
+  width: 80%;
+  margin: 3vh 0;
+}
+.characteristics img {
+  margin-right: 1vh;
+  align-items: center;
+}
+
+.characteristics-single {
+  width: 33%;
+}
+
+.price-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f2f7f6;
+  padding: 5px 50px 5px 10px;
+  border-radius: 5px;
+}
+
+.price-container h3 {
+  color: #b92125;
+  font-size: 4vh;
+  margin-top: 0;
+  font-family: "Merriweather";
+}
+
+.price-container p {
+  font-size: 1.7vh;
+  color: #848595;
+}
+
+.price-container h4 {
+  font-size: 1.9vh;
+  font-weight: 300;
+  margin-left: 10px;
+  margin-top: 1vh;
+}
+
+.cijena-dan-container {
+  display: flex;
+  align-items: center;
+}
+
+.rent-button {
+  background-color: #1e6d3e;
+  color: #fff;
+  border-radius: 12px;
+  font-size: 2.5vh;
+  padding: 10px 0;
+  transition: 0.3s;
+  display: flex;
+  justify-content: center;
+  margin-top: 2vh;
+  margin-bottom: 10vh;
+}
+
+.rent-button img {
+  width: 20px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.rent-button:hover {
+  background-color: #1e6d3ed2;
+  transition: 0.3s;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero-rent-a-car-details {
+    height: 250px;
+    background-position: center;
+  }
+
+  .rent-a-car-single {
+    flex-direction: column;
+  }
+
+  .rent-a-car-content {
+    width: 100%;
+  }
+  .rent-a-car-form {
+    width: 100%;
+    padding-left: 0;
+  }
+  .rent-a-car-content h2 {
+    font-size: 4vh;
+  }
+
+  .rent-a-car-content hr {
+    border: none;
+    background-color: #b92125;
+    height: 3px;
+    width: 30%;
+    margin: 1vh 0;
+  }
+
+  /*Swiper*/
+
+  .swiper-slide {
+    background-size: cover;
+    background-position: center;
+  }
+
+  .mySwiper2 {
+    margin-top: 5vh;
+    height: 40vh;
+    width: 100%;
+  }
+
+  .mySwiper {
+    height: 14vh;
+    box-sizing: border-box;
+    padding: 2vh 0;
+  }
+
+  .button-next,
+  .button-prev {
+    position: absolute;
+    top: 50%; /* Align to the vertical center */
+    z-index: 10;
+    cursor: pointer;
+    scale: 0.7;
+  }
+
+  /**/
+
+  .karakteristike {
+    display: flex;
+    width: 100%;
+  }
+
+  .karakteristike-single {
+    display: block;
+    align-items: center;
+    width: 25%;
+    margin: auto;
+  }
+
+  .karakteristike-single-text h3 {
+    font-size: 1.7vh;
+    font-weight: 300;
+  }
+  .karakteristike-single-text h4 {
+    font-size: 1.7vh;
+    color: #848595;
+    font-weight: 300;
+    margin-top: 2px;
+  }
+
+  .karakteristike-single__icon img {
+    width: 4.8vh;
+    margin-right: 1vh;
+  }
+
+  .oprema-table {
+    width: 100%;
+    margin: 5vh 0;
+    border-collapse: collapse;
+  }
+
+  .oprema-table th {
+    background-color: #ececec;
+    color: black;
+    font-size: 1.9vh;
+    font-weight: 400;
+    padding: 15px;
+    text-align: left;
+  }
+
+  .oprema-table td {
+    border: 2px solid #ececec;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.9vh;
+    font-weight: 300;
+  }
+
+  .oprema-table td:first-child {
+    text-align: left;
+  }
+
+  .oprema-table td img {
+    display: block;
+    margin-left: 0;
+    scale: 0.8;
+  }
+
+  .rent-a-car-form h2 {
+    font-size: 3.8vh;
+    margin-top: 3vh;
+  }
+
+  .rent-a-car-form hr {
+    width: 20%;
+    border: none;
+    height: 3px;
+    background-color: #b92125;
+    margin: 1vh 0;
+  }
+
+  .form-container {
+    margin-top: 3vh;
+    width: 100%;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 2.5vh;
+    font-family: "Lato";
+    margin-bottom: 1vh;
+  }
+
+  .form-group input[type="text"] {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1.7vh;
+    background-color: #fcfbfb;
+    border-radius: 12px;
+  }
+
+  .form-group input::placeholder {
+    color: #848595;
+  }
+
+  .datetime-group {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .datetime-group input {
+    width: 38%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1.7vh;
+    background-color: #fcfbfb;
+
+    border-radius: 12px;
+  }
+
+  .form-group p {
+    margin: 3vh 0;
+    font-size: 4.8vh;
+    font-family: "Lato";
+    font-weight: 400;
+    color: #b92125;
+  }
+
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 3vh 0;
+    background-color: #b92125;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 2.8vh;
+    cursor: pointer;
+  }
+
+  button[type="submit"]:hover {
+    background-color: #b92126ce;
+  }
+
+  .other-cars {
+    padding: 0 5%;
+  }
+  .other-cars h2 {
+    font-size: 4.4vh;
+  }
+
+  .other-cars hr {
+    border: none;
+    background-color: #b92125;
+    height: 3px;
+    width: 25%;
+  }
+
+  .car {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    vertical-align: top;
+    text-align: center;
+  }
+
+  .car img {
+    max-width: 100%;
+  }
+
+  .car h3 {
+    margin-top: -50px;
+    font-size: 3.5vh;
+    font-family: "Lato";
+    text-align: left;
+    font-weight: 400;
+  }
+
+  .car p {
+    margin: 5px 0;
+  }
+  .car span {
+    font-size: 1.7vh;
+    color: #848595;
+    font-weight: 300;
+  }
+  .rent-button {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+
+  .rent-button:hover {
+    background-color: #0056b3;
+  }
+  .characteristics {
+    display: flex;
+    padding: 0 0 0 0;
+    align-items: center;
+    width: 100%;
+    margin: 3vh 0;
+  }
+
+  .price-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f2f7f6;
+    padding: 5px 50px 5px 10px;
+    border-radius: 5px;
+  }
+
+  .price-container h3 {
+    color: #b92125;
+    font-size: 3.8vh;
+    margin-top: 0;
+    font-family: "Merriweather";
+  }
+
+  .price-container p {
+    font-size: 1.7vh;
+    color: #848595;
+  }
+
+  .price-container h4 {
+    font-size: 1.9vh;
+    font-weight: 300;
+    margin-left: 10px;
+    margin-top: 1vh;
+  }
+
+  .cijena-dan-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .rent-button {
+    background-color: #1e6d3e;
+    color: #fff;
+    border-radius: 12px;
+    font-size: 2.3vh;
+    padding: 10px 0;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+    margin-bottom: 10vh;
+  }
+
+  .rent-button img {
+    width: 20px;
+    height: 25px;
+    margin-right: 10px;
+  }
+
+  .rent-button:hover {
+    background-color: #1e6d3ed2;
+    transition: 0.3s;
+  }
+}

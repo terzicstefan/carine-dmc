@@ -1,0 +1,732 @@
+.hero-o-nama {
+  background: url("/images/o-nama.png");
+  background-size: cover;
+  height: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-o-nama h2 {
+  color: #fff;
+  font-size: 6.8vh;
+  font-family: "Lato";
+  margin-top: 5vh;
+  font-weight: 400;
+}
+
+.page-width {
+  max-width: 90% !important;
+}
+
+.main-o-nama {
+  position: relative;
+  padding: 5% 0;
+}
+.main-o-nama__inner {
+  display: flex;
+  padding: 5% 10%;
+  position: relative;
+  z-index: 10;
+}
+
+.inner-left {
+  width: 50%;
+}
+
+.inner-left img {
+  max-height: 90vh;
+  max-width: 75vh;
+}
+
+.inner-right {
+  width: 50%;
+  margin-left: 10vw;
+}
+
+.inner-right h2 {
+  font-size: 4.6vh;
+  width: 90%;
+}
+
+.inner-right p {
+  font-size: 2.5vh;
+  margin: 3vh 0;
+  width: 90%;
+}
+
+.inner-right__single {
+  display: flex;
+  align-items: center;
+  margin: 4vh 0;
+}
+
+.inner-right__single img {
+  width: 68px;
+  margin-right: 25px;
+}
+
+.inner-right__single h4 {
+  font-size: 2.5vh;
+  font-weight: bold;
+}
+
+.inner-right__single p {
+  font-size: 2.5vh;
+  font-weight: 300;
+  margin: 5px 0;
+}
+.o-nama-button {
+  display: flex;
+  background-color: #1e6d3e;
+  color: #fff;
+  font-size: 2.5vh;
+  width: 30vh;
+  height: 5.5vh;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 12px;
+  padding: 0 20px;
+  margin-top: 10vh;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.o-nama-button:hover {
+  background-color: #1e6d3ed3;
+  scale: 1.03;
+  transition: 0.5s;
+}
+
+.o-nama-button h4 {
+  font-weight: 400;
+}
+
+#bg-lines1 {
+  position: absolute;
+  top: -20%;
+  left: 0;
+}
+#bg-lines2 {
+  position: absolute;
+  bottom: -30%;
+  right: 0;
+}
+
+.o-nama-numbers {
+  background: url("/images/bay-onama.png");
+  background-size: cover;
+  background-position: center;
+  height: 390px;
+  display: flex;
+  justify-content: space-between;
+  padding: 3vh 10%;
+  align-items: center;
+}
+
+.o-nama-numbers__single h2 {
+  font-size: 6.8vh;
+  color: #fff;
+  text-align: center;
+  font-weight: 400;
+  font-family: "Lato";
+}
+.o-nama-numbers__single h3 {
+  font-size: 4.7vh;
+  color: #fff;
+  text-align: center;
+  font-weight: 400;
+  font-family: "Lato";
+}
+
+.o-nama-recenzije {
+  position: relative;
+}
+
+.o-nama-recenzije__text {
+  display: flex;
+  align-items: start;
+  padding: 5% 10%;
+}
+
+.o-nama-recenzije__text-heading {
+  width: 40%;
+}
+.o-nama-recenzije__text-heading hr {
+  border: none;
+  height: 3px;
+  background-color: #b92125;
+  width: 30%;
+}
+
+.o-nama-recenzije__text-heading h2 {
+  font-size: 4.7vh;
+  font-family: "Lato";
+}
+
+.o-nama-recenzije__text-desc {
+  width: 60%;
+}
+.o-nama-recenzije__text-desc p {
+  font-size: 2.5vh;
+}
+
+.o-nama-recenzije__button {
+  background-color: #b92125;
+  width: 29vh;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  height: 6vh;
+  border-radius: 12px;
+  margin-top: 40px;
+  box-shadow: 10px 4px 25px #00000052;
+  transition: 0.5s;
+  z-index: 10;
+  position: relative;
+}
+
+.o-nama-recenzije__button:hover {
+  background-color: #b92126d0;
+  scale: 1.03;
+  transition: 0.5s;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.o-nama-recenzije__button h4 {
+  font-size: 2.5vh;
+  font-weight: 400;
+}
+
+.o-nama-recenzije__cards {
+  background: url("/images/bg-reccenzije.png");
+  background-position: center;
+  background-size: cover;
+  width: 90%;
+  min-height: 55vh;
+  height: auto;
+  border-radius: 67px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5% 10%;
+  position: relative;
+}
+
+.recenzije-single-card {
+  width: 30%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  backdrop-filter: blur(10px);
+  padding: 0 5% 1% 5%;
+  position: relative;
+}
+.recenzije-single-card h3 {
+  font-size: 24px;
+  font-family: "Lato";
+  text-align: center;
+  font-weight: 400;
+}
+
+.recenzije-single-card h4 {
+  font-size: 14px;
+  text-align: center;
+}
+.recenzije-single-card p {
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  margin: 2vh 0;
+  line-height: 22px;
+}
+
+.recenzije-single-card hr {
+  background-color: #b92125;
+  height: 1px;
+  border: none;
+  width: 30%;
+  margin: 3px auto;
+}
+
+.user-img {
+  display: flex;
+  justify-content: center;
+  margin-top: -4vh;
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+  margin: 2vh 0;
+}
+
+.max-width-cards {
+  display: flex;
+  width: 100%;
+  min-height: 115vh;
+  height: auto;
+  margin: 10vh 0;
+  position: relative;
+}
+
+.max-width-cards h2 {
+  font-size: 6.8vh;
+  color: #fff;
+  font-family: "Lato";
+  border-bottom: 4px solid #1e6d3e;
+}
+
+.max-width-cards h4 {
+  font-size: 3.4vh;
+  color: #fff;
+  font-weight: 400;
+  margin: 0;
+}
+
+.izleti:hover {
+  background-size: 120% 120% !important;
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+.automobili:hover {
+  background-size: 120% 120% !important;
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+.transferi:hover {
+  background-size: 120% 120% !important;
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+.izleti,
+.automobili,
+.transferi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.izleti {
+  width: 33%;
+  background: url("/images/izleti.png");
+  background-position: center;
+  background-size: 100% 100%;
+  transition: 0.8s;
+}
+
+.automobili {
+  width: 33%;
+  background: url("/images/automobili.png");
+  background-position: center;
+  background-size: 100% 100%;
+  transition: 0.8s;
+}
+
+.transferi {
+  width: 33%;
+  background: url("/images/transferi.png");
+  background-position: center;
+  background-size: 100% 100%;
+  transition: 0.8s;
+}
+
+#recenzije-bg4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+#recenzije-bg5 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0;
+}
+.o-nama-blog {
+  padding: 2% 10% 5% 10%;
+}
+.o-nama-blog h2 {
+  font-size: 45px;
+  font-family: "Lato";
+}
+
+.o-nama-blog hr {
+  background-color: #1e6d3e;
+  border: none;
+  width: 10%;
+  height: 3px;
+  margin: 1vh 0;
+}
+.o-nama-blog p {
+  font-size: 24px;
+  font-family: "Lato";
+  font-weight: 400;
+  margin: 3vh 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  width: 408px;
+  height: 316px;
+  border-radius: 12px;
+  color: #fff;
+  padding: 4vh 3vh;
+}
+
+.swiper-wrapper {
+  padding-bottom: 15vh;
+  padding-top: 5vh;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slide-content h3 {
+  font-size: 2.5vh;
+  font-family: "Lato";
+  font-weight: 400;
+}
+
+.swiper-slide .date-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.swiper-slide .date-container img {
+  margin-right: 10px;
+}
+
+.date-container img {
+  width: 15px;
+}
+
+.date-container p {
+  font-size: 1.5vh;
+  color: #fff;
+  margin: 0;
+}
+
+.swiper-pagination {
+  bottom: 5px;
+}
+
+.swiper-pagination-bullet {
+  padding: 10px;
+  margin: 0 10px !important;
+  background-color: #b92125;
+}
+
+.swiper-slide a {
+  color: inherit; /* Inherit color from parent */
+  text-decoration: none; /* Remove underline */
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero-o-nama {
+    background: url("/images/o-nama.png");
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+  }
+
+  .main-o-nama__inner {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 5% 5%;
+  }
+
+  .inner-left {
+    width: 100%;
+  }
+
+  .inner-left img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+
+  .inner-right {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .inner-right h2 {
+    width: 100%;
+  }
+
+  .inner-right p {
+    margin: 2vh 0;
+    width: 100%;
+  }
+
+  .inner-right__single {
+    display: flex;
+    align-items: center;
+    margin: 4vh 0;
+  }
+
+  .inner-right__single img {
+    width: 7vh;
+  }
+
+  .o-nama-button {
+    margin: 5vh 0;
+  }
+
+  #bg-lines1 {
+    display: none;
+  }
+  #bg-lines2 {
+    display: none;
+  }
+
+  .o-nama-numbers {
+    background-size: cover;
+    min-height: 390px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3vh 10%;
+  }
+  .o-nama-numbers__single {
+    margin: 2vh 0;
+  }
+
+  .o-nama-numbers__single h2 {
+    font-size: 4.8vh;
+  }
+
+  .o-nama-numbers__single h3 {
+    font-size: 3.8vh;
+  }
+
+  .o-nama-recenzije {
+    position: relative;
+  }
+
+  .o-nama-recenzije__text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 5% 5%;
+  }
+
+  .o-nama-recenzije__text-heading {
+    width: 100%;
+  }
+
+  .o-nama-recenzije__text-heading hr {
+    border: none;
+    height: 3px;
+    background-color: #b92125;
+    width: 90%;
+  }
+
+  .o-nama-recenzije__text-heading h2 {
+    font-size: 4.4vh;
+    font-family: "Lato";
+    margin-bottom: 1vh;
+  }
+
+  .o-nama-recenzije__text-desc {
+    width: 100%;
+    margin-top: 3vh;
+  }
+
+  .o-nama-recenzije__cards {
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5% 10%;
+    margin-top: 5vh;
+  }
+
+  .recenzije-single-card {
+    width: 100%;
+    height: auto;
+
+    margin: 5vh 0;
+    backdrop-filter: blur(10px);
+    padding: 0 5% 5% 5%;
+    position: relative;
+  }
+
+  .max-width-cards {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    min-height: 115vh;
+    height: auto;
+    margin: 10vh 0;
+    position: relative;
+  }
+
+  .max-width-cards h2 {
+    font-size: 4.8vh;
+    color: #fff;
+    font-family: "Lato";
+    border-bottom: 4px solid #1e6d3e;
+  }
+
+  .max-width-cards h4 {
+    font-size: 2.4vh;
+    color: #fff;
+    font-weight: 400;
+    margin: 0;
+  }
+
+  .izleti,
+  .automobili,
+  .transferi {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 3vh;
+  }
+
+  .izleti {
+    width: 100%;
+
+    min-height: 50vh;
+  }
+
+  .automobili {
+    width: 100%;
+
+    min-height: 50vh;
+  }
+
+  .transferi {
+    width: 100%;
+    min-height: 50vh;
+  }
+
+  #recenzije-bg4 {
+    display: none;
+  }
+  #recenzije-bg5 {
+    display: none;
+  }
+  .o-nama-blog {
+    padding: 0% 5% 5% 5%;
+  }
+  .o-nama-blog h2 {
+    font-size: 4.8vh;
+    font-family: "Lato";
+  }
+
+  .o-nama-blog hr {
+    background-color: #1e6d3e;
+    border: none;
+    width: 50%;
+    height: 3px;
+    margin: 1vh 0;
+  }
+  .o-nama-blog p {
+    font-size: 2.5vh;
+    font-family: "Lato";
+    font-weight: 400;
+    margin: 3vh 0;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 408px;
+    height: 316px;
+    border-radius: 12px;
+    color: #fff;
+    padding: 4vh 3vh;
+  }
+
+  .swiper-wrapper {
+    padding-bottom: 10vh;
+    padding-top: 5vh;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .slide-content h3 {
+    font-size: 2.5vh;
+    font-family: "Lato";
+    font-weight: 400;
+  }
+
+  .swiper-slide .date-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .swiper-slide .date-container img {
+    margin-right: 10px;
+  }
+
+  .date-container img {
+    width: 15px;
+  }
+
+  .date-container p {
+    font-size: 1.5vh;
+    color: #fff;
+    margin: 0;
+  }
+
+  .swiper-pagination {
+    bottom: 5px;
+  }
+
+  .swiper-pagination-bullet {
+    padding: 10px;
+    margin: 0 10px !important;
+    background-color: #b92125;
+  }
+
+  .swiper-slide a {
+    color: inherit; /* Inherit color from parent */
+    text-decoration: none; /* Remove underline */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 100%;
+    height: 100%;
+  }
+}

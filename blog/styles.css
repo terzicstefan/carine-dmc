@@ -1,0 +1,188 @@
+.hero-blog {
+  background: url("/images/blog.png");
+  background-size: cover;
+  height: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-blog h2 {
+  color: #fff;
+  font-size: 6.8vh;
+  font-family: "Lato";
+  margin-top: 5vh;
+  font-weight: 400;
+}
+
+.main-blog {
+  padding: 5%;
+}
+
+.main-blog h2 {
+  font-size: 4.8vh;
+  text-align: center;
+}
+
+.main-blog hr {
+  border: none;
+  background-color: #B92125;
+  height: 3px;
+  margin: 5px auto;
+  width: 12%;
+}
+
+.page-width {
+  max-width: 90% !important;
+}
+
+.blog-post {
+  width: calc(33% - 20px);
+  margin: 3vh 1vh;
+  padding: 0;
+  box-sizing: border-box;
+  float: left;
+}
+
+.blog-post a {
+  text-decoration: none;
+}
+
+.blog-post img {
+  width: 28vw;
+  height: 42vh;
+  object-fit: cover;
+}
+
+.blog-post h5,
+.blog-post h2,
+.blog-post p {
+  text-align: left;
+}
+
+.post-date-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 1vw;
+}
+
+.post-btn,
+.post-date {
+  width: 50%;
+}
+
+.post-date h5 {
+  text-align: right;
+  font-family: 'Lato';
+  font-weight: 300;
+  font-size: 2.1vh;
+}
+
+.post-btn button {
+  color: #fff;
+  background-color: #1E6D3E;
+  border: none;
+  font-size: 2.5vh;
+  height: 4.5vh;
+  border-radius: 12px;
+  font-family: 'Merriweather';
+  width: 13vh;
+}
+
+.blog-post p {
+  padding-bottom: 30px;
+  margin: 1vh 0 0 0;
+  color: #898A95;
+  font-family: 'Merriweather';
+  font-size: 2.1vh;
+  padding-right: 1vw;
+}
+
+.blog-post h2 {
+  margin-top: 10px;
+  font-size: 3.4vh;
+  color: #000;
+}
+
+.blog-post h2:hover {
+  text-decoration: underline;
+  text-decoration-color: #000;
+}
+
+.pagination {
+  clear: both;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.active {
+  background-color: #B92125 !important;
+  color: #fff !important;
+  border-radius: 50px !important;
+}
+
+.pagination button {
+  margin: 0 3px;
+  width: 50px;
+  height: 50px;
+  border-radius: 0;
+  background-color: #007bff00;
+  color: #000;
+  border: none;
+  font-size: 3.4vh;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: #B92125;
+  color: #fff;
+  border-radius: 50px !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .blog-post {
+    width: 100%;
+    margin: 3vh 0;
+    float: none;
+  }
+
+  .hero-blog {
+    height: 300px;
+    background-position: center;
+  }
+
+  .main-blog {
+    padding: 5%;
+  }
+
+  .blog-post img {
+    width: 90vw;
+    height: 30vh;
+  }
+
+  .post-date h5 {
+    font-weight: 400;
+    font-size: 1.9vh;
+  }
+
+  .post-btn button {
+    font-size: 1.9vh;
+    height: 4vh;
+    width: 11vh;
+  }
+
+  .blog-post p {
+    font-size: 1.9vh;
+  }
+
+  .blog-post h2 {
+    font-size: 2.9vh;
+  }
+
+  .pagination button {
+    width: 40px;
+    height: 40px;
+    font-size: 2.5vh;
+  }
+}

@@ -1,0 +1,302 @@
+.hero-kontakt {
+  background: url("/images/kontakt.png");
+  background-size: cover;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-kontakt h2 {
+  color: #fff;
+  font-size: 6.8vh;
+  font-family: "Lato";
+  margin-top: 5vh;
+  font-weight: 400;
+}
+
+.page-width {
+  max-width: 90% !important;
+}
+
+.main-kontakt {
+  background-color: #faf4f0;
+  padding: 15vh 0;
+  position: relative;
+}
+
+.kontakt-wrap {
+  display: flex;
+  background-color: #fff;
+  width: 80%;
+  height: 90vh;
+  margin: auto;
+  box-shadow: 0px 32px 65px #00000052;
+}
+
+.kontakt-form {
+  width: 80%;
+  padding-top: 5%;
+  padding-left: 10%;
+}
+
+.kontakt-form h2 {
+  font-size: 7vh;
+}
+
+.kontakt-form p {
+  font-size: 2.5vh;
+  width: 55%;
+  margin: 5vh 0;
+}
+
+.kontakt-form hr {
+  width: 45%;
+  border: none;
+  background-color: #1e6d3e;
+  height: 4px;
+}
+
+.kontakt-social {
+  width: 20%;
+  background-color: #b92125;
+  display: flex;
+  align-items: end;
+  padding-bottom: 5vh;
+  justify-content: center;
+}
+
+.kontakt-social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.kontakt-social-icons img {
+  max-height: 4vh;
+  height: 4vh;
+  margin: 0 1.6vh;
+}
+
+form {
+  margin-top: 30px;
+  font-size: 2.5vh;
+}
+
+form input {
+  width: 60%;
+  background-color: #ffffff00;
+  color: #000;
+  border: none;
+  padding: 1vh 0.5vh;
+  font-size: 24px;
+  border-bottom: 1px solid #000000;
+  font-weight: 300;
+  font-family: "Merriweather";
+}
+
+::placeholder {
+  color: #898a95;
+  font-size: 2.5vh;
+  font-weight: 300;
+}
+
+textarea {
+  width: 60%;
+  padding: 0.5vh;
+  background-color: #ffffff00;
+  border: 1px solid #000000;
+  font-size: 2.5vh;
+  color: #000;
+  font-weight: 300;
+  font-family: "Merriweather";
+}
+
+form button {
+  width: 60%;
+  background-color: #232323;
+  color: #fff;
+  font-size: 2.5vh;
+  border: none;
+  padding: 1.6vh;
+  cursor: pointer;
+  font-weight: 300;
+  font-family: "Merriweather";
+  transition: 0.5s;
+}
+
+form button:hover {
+  opacity: 0.9;
+  border-radius: 5px;
+}
+
+.kontakt-info-box {
+  color: #fff;
+  background-color: #232323;
+  width: 66vh;
+  height: 64vh;
+  position: absolute;
+  top: 21.5%;
+  right: 9.9vw;
+  padding: 5vh 0 5vh 8vh;
+}
+
+.kontakt-info-box h3 {
+  font-size: 5vh;
+  font-weight: 400;
+  font-family: "Lato";
+}
+
+#red-square {
+  width: 6.5vh;
+  height: 6.5vh;
+  position: absolute;
+  top: -3vh;
+  left: -3vh;
+}
+
+.kontakt-info__single {
+  display: flex;
+  font-family: "Lato";
+  margin: 6.5vh 0;
+  font-weight: 300;
+}
+
+.kontakt-info__single a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.kontakt-info__single h4 {
+  font-size: 3.3vh;
+  font-weight: 400;
+  margin-left: 15px;
+}
+
+.kontakt-info__single img {
+  max-height: 6.5vh;
+  max-width: 5.4vh;
+}
+
+#green-circle {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  width: 9.2vh;
+  height: 9.2vh;
+}
+
+#red-circle1 {
+  position: absolute;
+  width: 6vh;
+  height: 7.8vh;
+  top: 14%;
+  left: 11%;
+}
+
+#red-circle2 {
+  position: absolute;
+  width: 9.2vh;
+  height: 9.2vh;
+  top: 2%;
+  left: 11%;
+}
+
+.map {
+  width: 100%;
+  height: 720px;
+  background: url("/images/map.png");
+  background-position: center;
+}
+
+/* Media queries */
+@media only screen and (max-width: 768px) {
+  .hero-kontakt {
+    background-position: center;
+    height: 250px;
+  }
+
+  .main-kontakt {
+    padding: 5vh 0;
+  }
+
+  .kontakt-wrap {
+    flex-direction: column;
+    width: 90%;
+    height: 74vh;
+  }
+
+  .kontakt-form {
+    width: 100%;
+  }
+
+  .kontakt-form h2 {
+    font-size: 4vh;
+  }
+
+  .kontakt-form p {
+    font-size: 1.9vh;
+    width: 90%;
+    margin: 3vh 0;
+  }
+
+  .kontakt-form hr {
+    width: 80%;
+  }
+
+  .kontakt-social {
+    width: 100%;
+    margin-top: 5vh;
+    padding-top: 5vh;
+  }
+
+  .kontakt-social-icons img {
+    max-height: 3vh;
+    height: 3vh;
+  }
+
+  form input,
+  textarea,
+  form button {
+    width: 90%;
+  }
+
+  form button {
+    font-size: 1.9vh;
+  }
+
+  .kontakt-info-box {
+    width: 100%;
+    height: 36vh;
+    position: static;
+    margin-top: 9vh;
+    padding: 3vh 0 5vh 8vh;
+  }
+
+  .kontakt-info-box h3 {
+    font-size: 3vh;
+  }
+
+  #red-square,
+  #green-circle,
+  #red-circle1,
+  #red-circle2 {
+    display: none;
+  }
+
+  .kontakt-info__single {
+    margin: 3.8vh 0;
+  }
+
+  .kontakt-info__single h4 {
+    font-size: 1.8vh;
+  }
+
+  .kontakt-info__single img {
+    max-height: 3.5vh;
+    max-width: 2.4vh;
+  }
+
+  .map {
+    height: 420px;
+  }
+}

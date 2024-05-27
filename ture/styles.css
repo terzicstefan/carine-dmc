@@ -1,0 +1,268 @@
+.hero-ture {
+  background: url("/images/ture-bg.png") center/cover no-repeat;
+  height: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-ture h2 {
+  color: #fff;
+  font-size: 6.8vh;
+  font-family: 'Lato';
+  margin-top: 5vh;
+  font-weight: 400;
+}
+
+.page-width {
+  max-width: 90% !important;
+}
+
+.ture-main {
+  padding: 5%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.ture-heading h2 {
+  font-size: 4.8vh;
+  font-weight: 400;
+  margin: 1vh 0;
+  font-family: 'Lato';
+}
+
+.ture-heading hr {
+  border: none;
+  background-color: #B92125;
+  height: 3px;
+  width: 40%;
+  margin: 1vh 0;
+}
+
+.ture {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0 5%;
+  margin-bottom: 2vh;
+}
+
+.tour {
+  width: 23%;
+  flex: 0 0 23%;
+  margin: 2vh 1vh;
+}
+
+.tour h3 {
+  font-size: 2.5vh;
+  font-weight: 400;
+}
+
+.tour h3:hover {
+  text-decoration: underline;
+  text-decoration-color: #B92125;
+}
+
+.tour p {
+  font-size: 1.9vh;
+  color: #717B8E;
+  margin-top: 2vh;
+}
+
+/* Updated CSS for Swiper slider */
+.swiper-container {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.swiper-wrapper {
+  display: flex;
+}
+
+.swiper-slide {
+  flex: 0 0 auto;
+  width: calc(100% / 3);
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.pagination {
+  margin: 5vh 0;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination button {
+  background-color: transparent;
+  border: none;
+  font-size: 3.5vh;
+  margin: 1vh 0.5vh;
+  padding: 10px 20px;
+}
+
+.pagination button:hover,
+.pagination button.active {
+  background-color: #B92125;
+  color: #fff;
+  border-radius: 50px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #fff;
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tour:hover .swiper-button-next,
+.tour:hover .swiper-button-prev {
+  display: block;
+  opacity: 1;
+}
+
+:root {
+  --swiper-navigation-size: 40px !important;
+}
+
+.swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+  margin: 0 0.7vh !important;
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #fff !important;
+}
+
+.ture-filter {
+  display: flex;
+}
+
+#filter-jednodnevne,
+#filter-visednevne,
+#filter-all {
+  margin: 1vh;
+  display: flex;
+  align-items: center;
+  border-radius: 77px;
+  font-size: 2.5vh;
+  font-weight: 300;
+  padding: 5px 10px;
+}
+
+#filter-jednodnevne {
+  background-color: #B92125;
+  color: #fff;
+  border: none;
+}
+
+#filter-jednodnevne h3,
+#filter-visednevne h3,
+#filter-all h3 {
+  font-family: 'Merriweather';
+  font-weight: 300;
+  margin-left: 5px;
+}
+
+#filter-visednevne {
+  background-color: transparent;
+  color: #1E6D3E;
+  border: 1px solid #1E6D3E;
+}
+
+#filter-all {
+  background-color: transparent;
+  color: #B92125;
+  border: 1px solid #B92125;
+  padding: 5px 15px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+}
+
+#tour-rating-value-1 {
+  background-color: #1E6D3E;
+  color: #fff;
+  padding: 5px;
+  font-size: 1.9vh;
+  border-radius: 4px;
+  margin: 1vh 1vh 1vh 0;
+}
+
+.tour-price-prefix-1,
+.tour-price-value-1 {
+  font-size: 3.4vh;
+}
+
+.tour-price-value-1 {
+  font-family: 'Open Sans';
+  color: #B92125;
+  font-weight: 500;
+}
+
+.tour-price-suffix-1 {
+  font-family: 'Open Sans';
+  font-size: 2.5vh;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero-ture {
+    height: 300px;
+  }
+
+  .hero-ture h2 {
+    font-size: 5vh;
+  }
+
+  .ture-main {
+    flex-direction: column;
+    padding: 5%;
+  }
+
+  .ture-heading h2 {
+    font-size: 4vh;
+  }
+
+  .ture-heading hr {
+    width: 30%;
+  }
+
+  .tour {
+    width: 95%;
+  }
+
+  .tour h3 {
+    font-size: 3.4vh;
+  }
+
+  .pagination {
+    justify-content: center;
+  }
+
+  .pagination button {
+    margin: 2vh 0.5vh;
+  }
+
+  .ture-filter {
+    flex-direction: column;
+  }
+
+  #filter-jednodnevne,
+  #filter-visednevne,
+  #filter-all {
+    width: 95%;
+  }
+}

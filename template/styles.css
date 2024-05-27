@@ -1,0 +1,116 @@
+.hero-template {
+    background: url('/images/background-boka.png');
+    background-size: cover;
+    height: 380px;
+  }
+  
+  .template-main {
+    padding: 0 10%;
+  }
+  
+  .template-main h2 {
+    text-align: center;
+    margin-top: 10vh;
+    font-size: 45px;
+  }
+  
+  .template-main hr {
+    width: 6%;
+    margin: 0 auto;
+    height: 4px;
+    border: none;
+    background-color: #B92125;
+  }
+  
+  .page-width {
+    max-width: 90% !important;
+  }
+  
+  .template-main__content p,
+  .template-main__content li {
+    font-size: 18px;
+  }
+  
+  .template-main__content li {
+    margin-left: 20px !important;
+    font-weight: 300;
+  }
+  
+  .template-main__content p {
+    margin: 4vh 0;
+  }
+  
+  .download-button,
+  .redirect-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    width: 150px;
+    height: 45px;
+    color: #fff;
+  }
+  
+  .download-button {
+    background-color: #B92125;
+  }
+  
+  .redirect-button {
+    background-color: #1E6D3E;
+  }
+  
+  .download-button span,
+  .redirect-button span {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .download-button img,
+  .redirect-button img {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+  }
+  
+  .image-grid {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+  
+  .image-grid img {
+    height: 295px;
+    width: 392px;
+    margin: 60px 10px;
+    border-radius: 12px;
+    object-fit: cover;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .hero-template {
+      background-position: center;
+      height: 250px;
+    }
+  
+    .template-main {
+      padding: 0 5%;
+    }
+  
+    .template-main h2 {
+      margin-top: 3vh;
+    }
+  
+    .template-main hr {
+      width: 30%;
+    }
+  
+    .image-grid {
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .image-grid img {
+      margin: 1.5vh 0;
+    }
+  }
+  

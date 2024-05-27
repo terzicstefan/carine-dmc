@@ -1,0 +1,165 @@
+.hero-politika-privatnosti {
+    background: url('/images/cookies-bg.png');
+    background-size: cover;
+    height: 300px;
+}
+
+.main-politika-privatnosti {
+    background-color: #FAF4F0;
+    padding: 10vh 0;
+    margin: 0;
+    position: relative;
+}
+
+.page-width {
+    max-width: 90% !important;
+}
+
+.main-politika-privatnosti__content {
+    width: 80%;
+    margin: 2vh auto 10vh auto;
+    box-shadow: -33px 4px 136px #00000052;
+    padding: 2% 5%;
+    z-index: 1;
+    background-color: #fff;
+    position: relative;
+}
+
+.main-politika-privatnosti__content h2 {
+    font-size: 64px;
+}
+
+.main-politika-privatnosti__content hr {
+    width: 16%;
+    height: 4px;
+    background-color: #B92125;
+    border: none;
+}
+
+.main-politika-privatnosti__content-single {
+    display: flex;
+    margin-top: 10vh;
+}
+
+.single-text {
+    width: 60%;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.single-heading {
+    width: 40%;
+    font-size: 32px;
+}
+
+.single-heading h4 {
+    width: 60%;
+}
+
+/* Circle vectors */
+#red-circle1 {
+    position: absolute;
+    top: 1vh;
+    left: 10%;
+}
+
+#red-circle2 {
+    position: absolute;
+    top: 40%;
+    right: 4%;
+    scale: 0.4;
+}
+
+#red-circle3 {
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    scale: 0.7;
+}
+
+#red-circle4 {
+    position: absolute;
+    top: 85%;
+    left: 3%;
+    scale: 0.4;
+}
+
+#green-circle1 {
+    position: absolute;
+    right: 7%;
+    top: 10%;
+}
+
+#green-circle2 {
+    position: absolute;
+    left: 7%;
+    top: 30%;
+    scale: 0.7;
+}
+
+#green-circle3 {
+    position: absolute;
+    right: 7%;
+    top: 60%;
+    scale: 0.7;
+}
+
+/* Media queries */
+@media only screen and (max-width: 768px) {
+    .hero-politika-privatnosti {
+        background-position: center;
+        height: 250px;
+    }
+
+    .main-politika-privatnosti {
+        padding: 5vh 0;
+    }
+
+    .main-politika-privatnosti__content {
+        width: 85%;
+        margin-bottom: 5vh;
+        padding-bottom: 5vh;
+    }
+
+    .main-politika-privatnosti__content-single {
+        flex-direction: column;
+        margin-top: 5vh;
+    }
+
+    .single-text {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .single-heading {
+        width: 100%;
+        font-size: 24px;
+    }
+
+    .single-heading h4 {
+        width: 100%;
+    }
+
+    #red-circle1 {
+        scale: 0.8;
+    }
+
+    #red-circle2 {
+        right: -4vw;
+    }
+
+    #red-circle3 {
+        left: 0;
+    }
+
+    #green-circle1 {
+        right: 0;
+        scale: 0.7;
+    }
+
+    #green-circle2 {
+        left: 7%;
+        top: 30%;
+        scale: 0.7;
+    }
+}

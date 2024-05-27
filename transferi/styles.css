@@ -1,0 +1,333 @@
+.hero-transferi {
+  background: url("/images/transferi-hero.png");
+  background-size: cover;
+  height: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-width {
+  max-width: 90% !important;
+}
+
+.hero-transferi h2 {
+  color: #fff;
+  font-size: 6.8vh;
+  font-family: "Lato";
+  margin-top: 5vh;
+  font-weight: 500;
+}
+
+.transferi-main {
+  padding: 5%;
+}
+
+.transfer-single {
+  display: flex;
+  margin: 5vh 0;
+}
+
+.transfer-thumbnail {
+  width: 40%;
+}
+
+.transfer-thumbnail img {
+  width: 100%;
+}
+
+.transfer-middle {
+  margin-left: 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.transfer-middle h2 {
+  font-size: 4.8vh;
+  font-weight: 400;
+}
+
+.transfer-middle p {
+  font-size: 2.5vh;
+  margin: 8vh 0;
+  max-width: 80%;
+}
+
+.transfer-karakteristike {
+  display: flex;
+  justify-content: center;
+  margin-left: -0.5vw;
+  width: 90%;
+}
+
+.transfer-karakteristike-single {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33%;
+}
+
+.transfer-karakteristike-single h4 {
+  font-size: 2.2vh;
+  font-weight: 300;
+  color: #848595;
+  margin: 0 2vh;
+}
+
+#putnici-icon {
+  width: 28px;
+  height: 35px;
+}
+
+#prevoz-icon {
+  width: 46px;
+  height: 19px;
+}
+
+#klima-icon {
+  width: 42px;
+  height: 33px;
+}
+
+.transfer-cijena {
+  display: flex;
+}
+
+.transfer-cijena h3,
+.transfer-cijena h4 {
+  font-size: 4.5vh;
+  font-family: 'Lato';
+  font-weight: 400;
+}
+
+.transfer-cijena h3 {
+  color: #B92125;
+  margin-left: 10px;
+}
+
+.transfer-price {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: -3vw;
+}
+
+.transfer-price h5 {
+  font-size: 2.4vh;
+  font-weight: 300;
+  margin: 3vh 0;
+}
+
+.transfer-price-button {
+  display: flex;
+  justify-content: center;
+  width: 27vh;
+  padding: 15px;
+  background-color: #1E6D3E;
+  border-radius: 16px;
+  transition: 0.3s;
+}
+
+.transfer-price-button h3 {
+  font-weight: 400;
+  font-size: 3.3vh;
+  color: #fff;
+}
+
+.transfer-price-button img {
+  width: 27px;
+  height: 34px;
+  margin-right: 10px;
+}
+
+.transfer-price-button:hover {
+  background-color: #1e6d3ee5;
+}
+
+.why-us-transferi h2 {
+  font-size: 6.8vh;
+  font-family: 'Lato';
+  text-align: center;
+  margin-top: 10vh;
+}
+
+.why-us-transferi hr {
+  border: none;
+  background-color: #1E6D3E;
+  height: 3px;
+  width: 30%;
+  margin: 1vh auto;
+}
+
+.transferi-statistic {
+  max-width: 60%;
+  display: flex;
+  margin: 10vh auto;
+  justify-content: space-between;
+}
+
+.single-statistic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.single-statistic-text {
+  display: flex;
+  margin: 3vh 0;
+}
+
+.single-statistic-text h3,
+.single-statistic-text h4 {
+  font-size: 3.5vh;
+  font-family: 'Lato';
+  font-weight: 400;
+}
+
+.single-statistic-text h3 {
+  color: #1E6B3A;
+  margin-right: 5px;
+}
+
+.transferi-statistic-outer {
+  position: relative;
+}
+
+.red-line {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 23%;
+  width: 100%;
+}
+
+.red-line hr {
+  width: 45%;
+  background-color: #fff;
+  border-top: 3px dotted #B92125;
+}
+
+.transferi-desc {
+  display: flex;
+  justify-content: center;
+}
+
+.transferi-desc p {
+  font-size: 2.5vh;
+  font-weight: 500;
+  text-align: center;
+  max-width: 70%;
+  margin-top: -5vh;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero-transferi {
+    height: 300px;
+    background-position: center;
+  }
+
+  .hero-transferi h2 {
+    font-size: 5.8vh;
+  }
+
+  .transfer-single {
+    flex-direction: column;
+    margin: 5vh 0;
+  }
+
+  .transfer-thumbnail {
+    width: 100%;
+  }
+
+  .transfer-thumbnail img {
+    width: 100%;
+  }
+
+  .transfer-middle {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .transfer-middle h2 {
+    font-size: 4vh;
+    margin-top: 2vh;
+  }
+
+  .transfer-middle p {
+    margin: 3vh 0;
+    max-width: 100%;
+  }
+
+  .transfer-karakteristike {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .transfer-karakteristike-single {
+    flex-direction: column;
+    width: 33%;
+  }
+
+  .transfer-karakteristike-single h4 {
+    font-size: 1.9vh;
+    text-align: center;
+    margin: 0;
+  }
+
+  .transfer-cijena h3,
+  .transfer-cijena h4 {
+    font-size: 3.5vh;
+  }
+
+  .transfer-price {
+    margin-left: 0;
+    margin-top: 3vh;
+    width: 100%;
+  }
+
+  .transfer-price-button {
+    width: 90vw;
+  }
+
+  .transfer-price-button h3 {
+    font-size: 2.5vh;
+  }
+
+  .transfer-price-button img {
+    scale: 0.8;
+  }
+
+  .why-us-transferi h2 {
+    font-size: 5vh;
+    margin-top: 10vh;
+  }
+
+  .why-us-transferi hr {
+    width: 50%;
+  }
+
+  .transferi-statistic {
+    max-width: 100%;
+    flex-direction: column;
+    margin: 5vh auto;
+  }
+
+  .single-statistic-text h3,
+  .single-statistic-text h4 {
+    font-size: 3vh;
+  }
+
+  .red-line {
+    display: none;
+  }
+
+  .transferi-desc p {
+    max-width: 90%;
+    margin-top: -2vh;
+    margin-bottom: 10vh;
+  }
+}

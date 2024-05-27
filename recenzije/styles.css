@@ -1,0 +1,676 @@
+.hero-recenzije {
+  background: url("/images/recenzijebg.png");
+  background-size: cover;
+  height: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-recenzije h2 {
+  color: #fff;
+  font-size: 6.8vh;
+  font-family: "Lato";
+  margin-top: 5vh;
+  font-weight: 400;
+}
+
+.page-width {
+  max-width: 90% !important;
+}
+
+.main-recenzije {
+  display: flex;
+  padding: 5% 20%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading-recenzije h2 {
+  font-size: 3.4vh;
+}
+
+.dropdown-year {
+  display: flex;
+  align-items: center;
+  border: 1px solid #f2f7f6;
+  width: 35vh;
+  height: 8vh;
+  padding: 1.6vh;
+  border-radius: 17px;
+}
+
+.dropdown-year h4 {
+  font-size: 2.5vh;
+  color: #848595;
+  font-family: "Lato";
+}
+
+.dropdown-year img {
+  margin-right: 10px;
+  width: 7vh;
+}
+
+.dropdown-year select {
+  margin-left: -3px;
+  padding: 0 17vh 0 0;
+  font-size: 2vh;
+  font-family: "Lato";
+  border: none;
+}
+
+.iskustva-section h2 {
+  font-size: 4.8vh;
+  text-align: center;
+  font-weight: 400;
+}
+
+.iskustva-section hr {
+  border: none;
+  background-color: #b92125;
+  height: 4px;
+  margin: 5px auto;
+  width: 22%;
+}
+
+.iskustva-section h4 {
+  font-size: 3.4vh;
+  text-align: center;
+  font-weight: 400;
+  margin: 3vh 0;
+}
+
+.slider-recenzije {
+  position: relative;
+}
+
+.swiper {
+  position: relative;
+  padding: 0 5% 10%;
+}
+
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  background: white;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.swiper-slide img {
+  border-radius: 50%;
+  width: 253px;
+  height: 253px;
+}
+
+.swiper-slide h3 {
+  font-family: "Lato";
+  font-size: 3.8vh;
+  margin: 1vh 0;
+}
+
+.swiper-slide p {
+  font-size: 3.4vh;
+  margin: 1vh 0;
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.stars img {
+  width: 45px;
+  height: 45px;
+  margin: 3vh 0.5vh;
+}
+
+.swiper-slide-prev,
+.swiper-slide-next {
+  scale: 0.5;
+  opacity: 0.7;
+}
+
+.swiper-slide:not(.swiper-slide-active) *:not(:first-child) {
+  display: none;
+}
+
+.swiper-button-next-custom {
+  position: absolute;
+  right: 18vw;
+  top: 45%;
+  z-index: 11;
+}
+
+.swiper-button-prev-custom {
+  position: absolute;
+  left: 18vw;
+  top: 45%;
+  z-index: 11;
+}
+
+.swiper-button-next-custom:hover,
+.swiper-button-prev-custom:hover {
+  cursor: pointer;
+}
+
+#quote-open,
+#quote-close {
+  position: absolute;
+  width: 17vh;
+}
+
+#quote-open {
+  bottom: 47%;
+  left: 25%;
+  z-index: 10;
+}
+
+#quote-close {
+  bottom: 20%;
+  right: 18%;
+  z-index: 10;
+}
+
+#elements {
+  position: absolute;
+  bottom: 35%;
+  z-index: 5;
+  width: 170vh;
+  right: 10%;
+}
+
+.why-us {
+  background-color: #faf4f0;
+  width: 90%;
+  min-height: 110vh;
+  height: auto;
+  padding: 3% 10% 0 10%;
+  margin-bottom: 15vh;
+}
+
+.why-us-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.why-us__text h2 {
+  font-size: 6.8vh;
+}
+
+.why-us__text hr {
+  border: none;
+  background-color: #1e6d3e;
+  height: 4px;
+  width: 30%;
+}
+
+.why-us__text p {
+  font-size: 2.5vh;
+  margin: 3vh 0;
+}
+
+.why-us__text-inner {
+  display: flex;
+}
+
+.why-us__text-inner-single {
+  margin-right: 6vw;
+  margin-top: 5vh;
+}
+
+.why-us__text-inner-single h3 {
+  font-family: 'Lato';
+  font-size: 2.5vh;
+  font-weight: bold;
+}
+
+.why-us__text-inner-single h4 {
+  font-weight: 300;
+  font-size: 2.5vh;
+  margin-top: 1vh;
+}
+
+.why-us-video {
+  margin-right: -20vw;
+  margin-left: 10vw;
+}
+
+.why-us-video img {
+  width: 90vh;
+}
+
+.why-us-video-bot img {
+  width: 55vh;
+}
+
+.why-us__text-bot {
+  margin-left: 5vw;
+  margin-bottom: 8vh;
+}
+
+.why-us__text-bot h2 {
+  font-size: 6.8vh;
+  font-family: "Merriweather";
+}
+
+.why-us__text-bot hr {
+  border: none;
+  background-color: #b92125;
+  height: 4px;
+  width: 30%;
+}
+
+.why-us__text-bot p {
+  font-size: 2.5vh;
+  margin: 3vh 0;
+}
+
+#video-bot {
+  margin-bottom: -10vh;
+}
+
+.why-us__text-bot-inner {
+  display: flex;
+  align-items: center;
+  margin-top: 5vh;
+}
+
+.why-us__text-bot-inner img {
+  width: 7.5vh;
+  height: 7.5vh;
+  margin-right: 2vh;
+}
+
+.why-us__text-bot-inner-name h3 {
+  font-size: 2.5vh;
+  font-weight: 300;
+}
+
+.why-us__text-bot-inner-name h4 {
+  font-size: 1.7vh;
+  font-weight: 300;
+  margin-top: 0.5vh;
+}
+
+.form-recenzija {
+  margin: 5vh 0;
+  padding: 3% 10%;
+  text-align: center;
+  position: relative;
+}
+
+.form-recenzija h2 {
+  font-size: 6.8vh;
+}
+
+.form-recenzija hr {
+  border: none;
+  background-color: #1e6d3e;
+  height: 4px;
+  margin: 5px auto;
+  width: 30%;
+}
+
+.rating {
+  display: inline-block;
+  position: relative;
+  height: 50px;
+  line-height: 50px;
+  font-size: 75px;
+  margin: 5vh 0;
+}
+
+.rating-form .icon {
+  margin: 0 10px;
+  font-size: 75px;
+}
+
+.rating label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  cursor: pointer;
+}
+
+.rating label:last-child {
+  position: static;
+}
+
+.rating label:nth-child(1) {
+  z-index: 5;
+}
+
+.rating label:nth-child(2) {
+  z-index: 4;
+}
+
+.rating label:nth-child(3) {
+  z-index: 3;
+}
+
+.rating label:nth-child(4) {
+  z-index: 2;
+}
+
+.rating label:nth-child(5) {
+  z-index: 1;
+}
+
+.rating label input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.rating label .icon {
+  float: left;
+  color: transparent;
+}
+
+.rating label:last-child .icon {
+  color: #ccc;
+}
+
+.rating:not(:hover) label input:checked ~ .icon,
+.rating:hover label:hover input ~ .icon {
+  color: #f5d501;
+}
+
+.rating label input:focus:not(:checked) ~ .icon:last-child {
+  color: #ccc;
+  text-shadow: 0 0 5px #f5d501;
+}
+
+/* Additional form fields styling */
+.form-fields {
+  margin-top: 20px;
+}
+
+.form-fields input {
+  background-color: #ececec;
+}
+
+.inline-fields {
+  display: flex;
+  gap: 80px;
+  margin-bottom: 3vh;
+}
+
+.inline-fields input {
+  flex: 1;
+  padding: 10px;
+  font-size: 2.5vh;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px;
+  font-size: 2.5vh;
+  border: none;
+  border-radius: 12px;
+  font-family: "Merriweather";
+  font-weight: 300;
+}
+
+textarea {
+  height: 35vh;
+  background-color: #ececec;
+  margin-top: 3vh;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  font-size: 2.5vh;
+  font-family: "Merriweather";
+  color: white;
+  background-color: #b92125;
+  border: none;
+  margin: 3vh auto;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+button:hover {
+  background-color: #b92126cb;
+}
+
+.rating-form {
+  max-width: 70%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10;
+}
+
+#arrowup {
+  margin-left: 10px;
+  margin-bottom: 5px;
+  width: 2.5vh;
+}
+
+#elements-bot {
+  position: absolute;
+  top: 0;
+  left: 8%;
+}
+
+/* Media queries */
+@media only screen and (max-width: 768px) {
+  .hero-recenzije {
+    background-position: center;
+    height: 300px;
+  }
+
+  .hero-recenzije h2 {
+    font-size: 5.8vh;
+  }
+
+  .main-recenzije {
+    padding: 5%;
+  }
+
+  .heading-recenzije h2 {
+    font-size: 2.4vh;
+  }
+
+  .dropdown-year {
+    width: 20vh;
+    height: 6vh;
+  }
+
+  .dropdown-year h4 {
+    font-size: 1.9vh;
+  }
+
+  .dropdown-year img {
+    width: 5vh;
+  }
+
+  .dropdown-year select {
+    padding: 0 5vh 0 0;
+    font-size: 1.7vh;
+  }
+
+  .iskustva-section h2 {
+    font-size: 3.8vh;
+    margin-top: 2vh;
+  }
+
+  .iskustva-section hr {
+    height: 3px;
+  }
+
+  .iskustva-section h4 {
+    font-size: 2.5vh;
+  }
+
+  .swiper {
+    padding: 0;
+  }
+
+  .swiper-slide {
+    width: 60%;
+  }
+
+  .swiper-slide img {
+    width: 153px;
+    height: 153px;
+  }
+
+  .swiper-slide h3 {
+    font-size: 2.5vh;
+  }
+
+  .swiper-slide p {
+    font-size: 2.2vh;
+    width: 120%;
+  }
+
+  .stars img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .swiper-button-next-custom {
+    right: 5vw;
+    top: 30%;
+  }
+
+  .swiper-button-prev-custom {
+    left: 5vw;
+    top: 30%;
+  }
+
+  #quote-open {
+    bottom: 47%;
+    left: -7%;
+    scale: 0.5;
+    opacity: 0.6;
+  }
+
+  #quote-close {
+    bottom: 0;
+    right: -5%;
+    scale: 0.5;
+    opacity: 0.6;
+  }
+
+  .why-us {
+    margin-top: 5vh;
+  }
+
+  .why-us-wrap {
+    flex-direction: column;
+  }
+
+  .why-us__text h2 {
+    font-size: 4vh;
+  }
+
+  .why-us__text p {
+    font-size: 2vh;
+  }
+
+  .why-us__text-inner-single {
+    margin-top: 0;
+  }
+
+  .why-us__text-inner-single h4 {
+    font-size: 2.2vh;
+  }
+
+  .why-us-video {
+    margin-top: 5vh;
+  }
+
+  .why-us-video img {
+    width: 80vw;
+  }
+
+  .wrap-bot {
+    flex-direction: column-reverse;
+    margin-top: 5vh;
+  }
+
+  .why-us-video-bot img {
+    width: 80vw;
+    height: 40vh;
+  }
+
+  .why-us__text-bot {
+    margin-left: 0;
+    margin-bottom: 5vh;
+  }
+
+  .why-us__text-bot h2 {
+    font-size: 4vh;
+  }
+
+  .why-us__text-bot p {
+    font-size: 2vh;
+  }
+
+  .why-us__text-bot-inner img {
+    width: 5.5vh;
+    height: 5.5vh;
+  }
+
+  .why-us__text-bot-inner-name h3 {
+    font-size: 2vh;
+  }
+
+  .why-us__text-bot-inner-name h4 {
+    font-size: 1.4vh;
+  }
+
+  .form-recenzija {
+    padding: 3% 5%;
+  }
+
+  .form-recenzija h2 {
+    font-size: 5vh;
+  }
+
+  .form-recenzija hr {
+    width: 50%;
+  }
+
+  .rating-form .icon {
+    margin: 0 5px;
+    font-size: 45px;
+  }
+
+  .inline-fields {
+    gap: 20px;
+  }
+
+  .inline-fields input,
+  input[type="text"],
+  input[type="email"],
+  textarea,
+  button {
+    font-size: 1.9vh;
+  }
+
+  textarea {
+    height: 25vh;
+  }
+
+  .rating-form {
+    max-width: 85%;
+  }
+}

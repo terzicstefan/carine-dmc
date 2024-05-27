@@ -1,0 +1,210 @@
+[
+    {
+      "name": "MNE Istorija",
+      "place": "Kotor",
+      "image": "/images/img-man.png",
+      "year": "2024",
+      "text": "Moje iskustvo sa Carine DMC-om bilo je izvanredno. Osoblje je bilo izuzetno ljubazno i profesionalno, pružajući mi sve potrebne informacije i podršku tokom našeg boravka. Ture su bile dobro organizovane. Svaki trenutak proveden sa ovom agencijom bio je nezaboravan, i definitivno planiram da se vratim i ponovno ih posetim.",
+      "rating": 4.9,
+      "images": [
+        "/images/mneistorija.png",
+        "/images/tour2.png",
+        "/images/mneistorija.png",
+        "/images/mneistorija.png",
+        "/images/mneistorija.png"
+      ],
+      "tip": "jedno-dnevna",
+      "price": 50,
+      "url":"/"
+    },
+    {
+      "name": "Plava špilja  ",
+      "place": "Kotor",
+      "image": "/images/img-woman.png",
+      "year": "2024",
+      "text": "Moje iskustvo sa Carine DMC-om bilo je izvanredno. Osoblje je bilo izuzetno ljubazno i profesionalno, pružajući mi sve potrebne informacije i podršku tokom našeg boravka. Ture su bile dobro organizovane. Svaki trenutak proveden sa ovom agencijom bio je nezaboravan, i definitivno planiram da se vratim i ponovno ih posetim.",
+  
+      "rating": 4.8,
+      "images": [
+        "/images/mneistorija.png",
+        "/images/tour2.png",
+        "/images/mneistorija.png",
+        "/images/mneistorija.png",
+        "/images/mneistorija.png"
+      ],
+      "tip": "jedno-dnevna",
+      "price": 50,
+      "url":"/"
+    },
+    {
+      "name": "Dubrovnik izlet",
+      "place": "Kotor",
+      "image": "/images/img-woman.png",
+      "year": "2024",
+      "text": "Moje iskustvo sa Carine DMC-om bilo je izvanredno. Osoblje je bilo izuzetno ljubazno i profesionalno, pružajući mi sve potrebne informacije i podršku tokom našeg boravka. Ture su bile dobro organizovane. Svaki trenutak proveden sa ovom agencijom bio je nezaboravan, i definitivno planiram da se vratim i ponovno ih posetim.",
+  
+      "rating": 4.9,
+      "images": [
+        "/images/mneistorija.png",
+        "/images/tour2.png",
+        "/images/mneistorija.png",
+        "/images/mneistorija.png",
+        "/images/mneistorija.png"
+      ],
+      "tip": "jedno-dnevna",
+      "price": 50,
+      "url":"/"
+    },
+    {
+      "name": "The Great Montenegro Tour starting from Kotor",
+      "place": "Kotor",
+      "image": "/images/img-man.png",
+      "year": "2024",
+      "text": "Moje iskustvo sa Carine DMC-om bilo je izvanredno. Osoblje je bilo izuzetno ljubazno i profesionalno, pružajući mi sve potrebne informacije i podršku tokom našeg boravka. Ture su bile dobro organizovane. Svaki trenutak proveden sa ovom agencijom bio je nezaboravan, i definitivno planiram da se vratim i ponovno ih posetim.",
+  
+      "rating": 5,
+      "images": [
+        "/images/mneistorija.png",
+        "/images/tour2.png",
+        "/images/mneistorija.png",
+        "/images/mneistorija.png",
+        "/images/mneistorija.png"
+      ],
+      "tip": "vise-dnevna",
+      "price": 50,
+      "url":"/"
+    },
+    {
+      "name": "Kanjon Tare",
+      "place": "Kotor",
+      "image": "/images/img-man.png",
+      "year": "2023",
+      "text": "Moje iskustvo sa Carine DMC-om bilo je izvanredno. Osoblje je bilo izuzetno ljubazno i profesionalno, pružajući mi sve potrebne informacije i podršku tokom našeg boravka. Ture su bile dobro organizovane. Svaki trenutak proveden sa ovom agencijom bio je nezaboravan, i definitivno planiram da se vratim i ponovno ih posetim.",
+  
+      "rating": 5,
+      "images": [
+        "/images/mneistorija.png",
+        "/images/tour2.png",
+        "/images/mneistorija.png",
+        "/images/mneistorija.png",
+        "/images/mneistorija.png"
+      ],
+      "tip": "jedno-dnevna",
+      "price": 50,
+      "url":"/"
+    },
+    {
+      "name": "Skadarsko jezero izlet",
+      "place": "Kotor",
+      "image": "/images/img-man.png",
+      "year": "2023",
+      "text": "Moje iskustvo sa Carine DMC-om bilo je izvanredno. Osoblje je bilo izuzetno ljubazno i profesionalno, pružajući mi sve potrebne informacije i podršku tokom našeg boravka. Ture su bile dobro organizovane. Svaki trenutak proveden sa ovom agencijom bio je nezaboravan, i definitivno planiram da se vratim i ponovno ih posetim.",
+  
+      "rating": 5,
+      "images": [
+        "/images/mneistorija.png",
+        "/images/tour2.png",
+        "/images/mneistorija.png",
+        "/images/mneistorija.png",
+        "/images/mneistorija.png"
+      ],
+      "tip": "jedno-dnevna",
+      "price": 50,
+      "url":"/"
+    },
+    {
+      "name": "Rafting Tarom",
+      "place": "Kotor",
+      "image": "/images/img-man.png",
+      "year": "2023",
+      "text": "Moje iskustvo sa Carine DMC-om bilo je izvanredno. Osoblje je bilo izuzetno ljubazno i profesionalno, pružajući mi sve potrebne informacije i podršku tokom našeg boravka. Ture su bile dobro organizovane. Svaki trenutak proveden sa ovom agencijom bio je nezaboravan, i definitivno planiram da se vratim i ponovno ih posetim.",
+  
+      "rating": 5,
+      "images": [
+        "/images/tour2.png",
+        "/images/mneistorija.png",
+        "/images/mneistorija.png",
+        "/images/mneistorija.png",
+        "/images/mneistorija.png"
+      ],
+      "tip": "vise-dnevna",
+      "price": 50,
+      "url":"/"
+    },
+    {
+      "name": "Visit Perast",
+      "place": "Kotor",
+      "image": "/images/img-man.png",
+      "year": "2023",
+      "text": "Moje iskustvo sa Carine DMC-om bilo je izvanredno. Osoblje je bilo izuzetno ljubazno i profesionalno, pružajući mi sve potrebne informacije i podršku tokom našeg boravka. Ture su bile dobro organizovane. Svaki trenutak proveden sa ovom agencijom bio je nezaboravan, i definitivno planiram da se vratim i ponovno ih posetim.",
+  
+      "rating": 4.8,
+      "images": [
+        "/images/tour2.png",
+        "/images/mneistorija.png",
+        "/images/mneistorija.png",
+        "/images/mneistorija.png",
+        "/images/mneistorija.png"
+      ],
+      "tip": "vise-dnevna",
+      "price": 50,
+      "url":"/"
+    }, {
+        "name": "Skadarsko jezero izlet",
+        "place": "Kotor",
+        "image": "/images/img-man.png",
+        "year": "2023",
+        "text": "Moje iskustvo sa Carine DMC-om bilo je izvanredno. Osoblje je bilo izuzetno ljubazno i profesionalno, pružajući mi sve potrebne informacije i podršku tokom našeg boravka. Ture su bile dobro organizovane. Svaki trenutak proveden sa ovom agencijom bio je nezaboravan, i definitivno planiram da se vratim i ponovno ih posetim.",
+    
+        "rating": 5,
+        "images": [
+          "/images/mneistorija.png",
+          "/images/tour2.png",
+          "/images/mneistorija.png",
+          "/images/mneistorija.png",
+          "/images/mneistorija.png"
+        ],
+        "tip": "jedno-dnevna",
+        "price": 50,
+        "url":"/"
+      },
+      {
+        "name": "Rafting Tarom",
+        "place": "Kotor",
+        "image": "/images/img-man.png",
+        "year": "2023",
+        "text": "Moje iskustvo sa Carine DMC-om bilo je izvanredno. Osoblje je bilo izuzetno ljubazno i profesionalno, pružajući mi sve potrebne informacije i podršku tokom našeg boravka. Ture su bile dobro organizovane. Svaki trenutak proveden sa ovom agencijom bio je nezaboravan, i definitivno planiram da se vratim i ponovno ih posetim.",
+    
+        "rating": 5,
+        "images": [
+          "/images/tour2.png",
+          "/images/mneistorija.png",
+          "/images/mneistorija.png",
+          "/images/mneistorija.png",
+          "/images/mneistorija.png"
+        ],
+        "tip": "vise-dnevna",
+        "price": 50,
+        "url":"/"
+      },
+      {
+        "name": "Visit Perast",
+        "place": "Kotor",
+        "image": "/images/img-man.png",
+        "year": "2023",
+        "text": "Moje iskustvo sa Carine DMC-om bilo je izvanredno. Osoblje je bilo izuzetno ljubazno i profesionalno, pružajući mi sve potrebne informacije i podršku tokom našeg boravka. Ture su bile dobro organizovane. Svaki trenutak proveden sa ovom agencijom bio je nezaboravan, i definitivno planiram da se vratim i ponovno ih posetim.",
+    
+        "rating": 4.8,
+        "images": [
+          "/images/tour2.png",
+          "/images/mneistorija.png",
+          "/images/mneistorija.png",
+          "/images/mneistorija.png",
+          "/images/mneistorija.png"
+        ],
+        "tip": "vise-dnevna",
+        "price": 50,
+        "url":"/"
+      }
+  ]
+  

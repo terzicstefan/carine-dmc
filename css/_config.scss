@@ -1,0 +1,399 @@
+$red: #b92125;
+$green: #1e6d3e;
+$light-green: #38b56b;
+$light-red: #fe645e;
+
+$screen-sm-min: 576px;
+$screen-md-min: 768px;
+$screen-lg-min: 992px;
+$screen-xl-min: 1200px;
+
+$screen-sm-max: 575px;
+$screen-md-max: 767px;
+$screen-lg-max: 991px;
+$screen-xl-max: 1199px;
+$screen-xxl-max: 1299px;
+$screen-xxxl-max: 1399px;
+
+@mixin sm {
+    @media screen and (min-width: #{$screen-sm-min}) and (max-width: #{$screen-sm-max}) {
+        @content;
+    }
+}
+
+@mixin md {
+    @media screen and (min-width: #{$screen-md-min}) and (max-width: #{$screen-md-max}) {
+        @content;
+    }
+}
+
+@mixin lg {
+    @media screen and (min-width: #{$screen-lg-min}) and (max-width: #{$screen-lg-max}) {
+        @content;
+    }
+}
+
+@mixin xl {
+    @media screen and (min-width: #{$screen-xl-min}) and (max-width: #{$screen-xl-max}) {
+        @content;
+    }
+}
+// media lt queries
+@mixin lt-sm {
+    @media screen and (max-width: #{$screen-sm-max}) {
+        @content;
+    }
+}
+
+@mixin lt-md {
+    @media screen and (max-width: #{$screen-md-max}) {
+        @content;
+    }
+}
+
+@mixin lt-lg {
+    @media screen and (max-width: #{$screen-lg-max}) {
+        @content;
+    }
+}
+
+@mixin lt-xl {
+    @media screen and (max-width: #{$screen-xl-max}) {
+        @content;
+    }
+}
+
+@mixin lt-xxl {
+    @media screen and (max-width: #{$screen-xxl-max}) {
+        @content;
+    }
+}
+
+@mixin lt-xxxl {
+    @media screen and (max-width: #{$screen-xxxl-max}) {
+        @content;
+    }
+}
+// media gt queries
+
+@mixin gt-sm {
+    @media screen and (min-width: #{$screen-md-min}) {
+        @content;
+    }
+}
+
+@mixin gt-md {
+    @media screen and (min-width: #{$screen-lg-min}) {
+        @content;
+    }
+}
+
+@mixin gt-lg {
+    @media screen and (min-width: #{$screen-xl-min}) {
+        @content;
+    }
+}
+///////////////////////////////////////////////////////////////////////////
+
+@font-face {
+    font-family: "Lato";
+    src:
+        url("../fonts/Lato-Light.woff2") format("woff2"),
+        url("../fonts/Lato-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Lato";
+    src:
+        url("../fonts/Lato-Regular.woff2") format("woff2"),
+        url("../fonts/Lato-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Lato";
+    src:
+        url("../fonts/Lato-Bold.woff2") format("woff2"),
+        url("../fonts/Lato-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Lato";
+    src:
+        url("../fonts/Lato-Black.woff2") format("woff2"),
+        url("../fonts/Lato-Black.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+//////////////////////////////////////////////////////////////////////////////////////
+
+@font-face {
+    font-family: "Merriweather";
+    src:
+        url("../fonts/Merriweather-Light.woff2") format("woff2"),
+        url("../fonts/Merriweather-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Merriweather";
+    src:
+        url("../fonts/Merriweather-Regular.woff2") format("woff2"),
+        url("../fonts/Merriweather-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Merriweather";
+    src:
+        url("../fonts/Merriweather-Bold.woff2") format("woff2"),
+        url("../fonts/Merriweather-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Merriweather";
+    src:
+        url("../fonts/Merriweather-Black.woff2") format("woff2"),
+        url("../fonts/Merriweather-Black.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+//////////////////////////////////////////////////////////////////////////////////
+@font-face {
+    font-family: "WorkSans";
+    src:
+        url("../fonts/WorkSans-Light.woff2") format("woff2"),
+        url("../fonts/WorkSans-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "WorkSans";
+    src:
+        url("../fonts/WorkSans-Regular.woff2") format("woff2"),
+        url("../fonts/WorkSans-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+//////////////////////////////////////////////////////////////////////////////////
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Merriweather";
+    overflow-x: hidden;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 16px;
+    padding: 0;
+    position: relative;
+}
+.page-width {
+    max-width: 1500px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media only screen and (max-width: 1600px) {
+        max-width: 80%;
+    }
+    @media only screen and (max-width: 900px) {
+        max-width: 90%;
+    }
+}
+.page-padding {
+    padding: 80px 0;
+    @include lt-sm {
+        padding: 50px 0;
+    }
+}
+.page-padding-2 {
+    padding: 50px 0;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.6;
+}
+a {
+    text-decoration: none;
+}
+button {
+    cursor: pointer;
+}
+h1, h2 {
+    font-size: 40px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Lato";
+    @media only screen and (max-width: 1600px){
+        font-size: 35px;
+    }
+    @include lt-xxxl {
+        font-size: 32px;
+    }
+    @include lt-sm {
+        font-size: 28px;
+    }
+}
+p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #000;
+    line-height: 30px;
+    @include lt-xxxl {
+        font-size: 14px;
+        line-height: 26px;
+    }
+}
+.title {
+    span {
+        font-size: 20px;
+        color: #000000;
+        font-weight: 300;
+        @media only screen and (max-width: 1600px){
+            font-size: 18px;
+        }
+        @include lt-xxxl {
+            font-size: 16px;
+        }
+        @include lt-sm {
+            font-size: 14px;
+        }
+    }
+}
+.red-title, .green-title, .red-short-title, .green-short-title {
+    h1, h2 {
+        width: fit-content;
+        padding-bottom: 5px;
+    }
+}
+.red-title {
+    h1, h2 {
+        border-bottom: 6px solid $red;
+    }
+}
+.green-title {
+    h1, h2 {
+        border-bottom: 6px solid $green;
+    }
+}
+.red-short-title, .green-short-title {
+    h1, h2 {
+        position: relative;
+        &::after {
+            position: absolute;
+            content: "";
+            height: 4px;
+            width: 110px;
+            bottom: 0;
+            left: 0;
+        }
+    }
+}
+.red-short-title {
+    h1, h2 {
+        &::after {
+            background-color: $red;
+        }
+    }
+}
+.green-short-title {
+    h1, h2 {
+        &::after {
+            background-color: $green;
+        }
+    }
+}
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.arrow-btn {
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+    background-color: $green;
+    padding: 10px 30px;
+    padding-right: 50px;
+    background-image: url('../images/arrow-right.svg');
+    background-position: calc(100% - 20px);
+    background-repeat: no-repeat;
+    background-size: auto 50%;
+    transition: all 0.6s;
+
+    @include lt-xxxl {
+        font-size: 18px;
+    }
+    @include lt-sm {
+        font-size: 16px;
+    }
+}
+.arrow-btn:hover {
+    background-position: calc(100% - 10px);
+}
+.small-btn {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    background-color: $green;
+    padding: 8px 18px;
+}
+.image {
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+.redBtn, .whiteBtn {
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    background-color: $red;
+    text-align: center;
+    padding: 6px 15px;
+    border: 2px solid $red;
+    @include lt-sm {
+        font-size: 14px;
+    }
+}
+.whiteBtn {
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+.no-scroll {
+    overflow: hidden;
+}

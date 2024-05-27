@@ -1,0 +1,319 @@
+footer {
+    // background-color: #232323;
+    background-color: #F1F0EE;
+    padding: 100px 0 20px;
+    position: relative;
+    overflow: hidden;
+    &::before, &::after {
+        position: absolute;
+        content: "";
+        border-radius: 50%;
+        z-index: 0;
+        filter: blur(70px);
+        opacity: 0.5;
+
+    }
+    &::before {
+        width: 300px;
+        height: 300px;
+        background: linear-gradient(212deg, #b92125 0%, #cd4040 100%);
+        left: -150px;
+        bottom: -100px;
+    }
+    &::after {
+        width: 200px;
+        height: 200px;
+        background: linear-gradient(212deg, #1e6d3e 0%, #3ad378 100%);
+        right: -50px;
+        top: 70px;
+    }
+    @include lt-xl {
+        padding-top: 20px;
+    }
+}
+.foot1, .foot2 {
+    position: relative;
+    z-index: 1;
+}
+.foot2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    p, a {
+        font-size: 16px;
+        font-weight: 400;
+        color: #063841;
+    }
+    @media screen and (max-width: 1600px) {
+        p, a {
+            font-size: 14px;
+        }
+    }
+    @include lt-xxxl {
+        p, a {
+            font-size: 12px;
+        }
+    }
+    @include lt-md {
+        flex-direction: column;
+        align-items: start;
+        p {
+            order: 1;
+        }
+        p, a {
+            line-height: 20px;
+            margin-top: 5px;
+        }
+    }
+}
+.foot1 {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+
+    .footer-col {
+        width: fit-content;
+        max-width: 400px;
+        .foot-info + .foot-info {margin-top: 40px;}
+    }
+
+    .footer-col:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        p, a {
+            text-align: center;
+        }
+    }
+    a {
+        font-size: 20px;
+        font-weight: 400;
+        color: #063841;
+        line-height: 35px;
+        display: block;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        color: #063841;
+    }
+    .footer-logo {
+        margin-top: 80px;
+        img {
+            width: 160px;
+        }
+    }
+
+    .foot-info {
+        p:first-child {
+            font-size: 26px;
+            color: #063841;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style: none;
+        }
+    }
+    .footer-links {
+        a:hover {
+            color: $red;
+            text-decoration: underline;
+        }
+    }
+    .footer-contact {
+        a {
+            font-family: 'WorkSans';
+            font-weight: 300;
+            padding-left: 35px;
+            background-position: 0%;
+            background-repeat: no-repeat;
+            
+        }
+        a[href^="tel:"] {
+            background-image: url('../images/phone-dark.svg');
+            background-size: 25px;
+        }
+        a[href^="mailto:"] {
+            background-image: url('../images/mail-dark.svg');
+            background-size: 25px;
+        }
+    }
+
+    form {
+        display: flex;
+        margin-top: 30px;
+        input, input::placeholder, button {
+            font-size: 18px;
+            font-family: 'Merriweather';
+            font-weight: 300;
+        }
+        input, input::placeholder {
+            color: #ACACAC;
+        }
+        input {
+            background-color: #fff;
+            height: 60px;
+            width: 100%;
+            padding: 10px 15px;
+            border: none;
+            outline: none;
+        }
+        button {
+            background-color: #063841;
+            border: 3px solid #063841;
+            padding: 0 10px;
+            color: #fff;
+            height: 60px;
+            margin-left: 15px;
+            transition: all 0.5s;
+        }
+        button:hover {
+            background-color: #f2f2f2;
+            color: #063841;
+        }
+    }
+    .social {
+        margin-bottom: 70px;
+    }
+    @media screen and (max-width: 1600px) {
+        .footer-col {
+            max-width: 350px;
+        }
+        a {
+            font-size: 16px;
+            line-height: 30px;
+        }
+        p {
+            font-size: 13px;
+            line-height: 22px;
+        }
+        .footer-logo {
+            margin-top: 60px;
+            img {
+                width: 130px;
+            }
+        }
+        .foot-info {
+            p:first-child {
+                font-size: 20px;
+                margin-bottom: 10px;
+            }
+        }
+        .footer-contact {
+            a {
+                padding-left: 25px;
+            }
+            a[href^="tel:"] {
+                background-size: 19px;
+            }
+            a[href^="mailto:"] {
+                background-size: 20px;
+            }
+        }
+        form {
+            input, button {
+                height: 50px;
+            }
+            input, input::placeholder, button {
+                font-size: 16px;
+            }
+        }
+        .social {
+            margin-top: 30px;
+        }
+    }
+    @include lt-xxxl {
+        .footer-col {
+            max-width: 280px;
+        }
+        a {
+            font-size: 15px;
+            line-height: 28px;
+        }
+        p {
+            font-size: 13px;
+            line-height: 22px;
+        }
+        .footer-logo {
+            img {
+                width: 120px;
+            }
+        }
+        form {
+            input, button {
+                height: 40px;
+            }
+            input, input::placeholder, button {
+                font-size: 13px;
+            }
+        }
+        .social {
+            margin-top: 30px;
+        }
+    }
+    @include lt-xl {
+        flex-direction: column;
+        .footer-col:nth-child(2) {
+            align-items: start;
+            p, a {
+                text-align: left;
+            }
+        }
+        .footer-col .foot-info, .footer-logo {margin-top: 40px;}
+        .social {margin-bottom: 0;}
+    }
+    @include lt-sm {
+        .footer-col {
+            width: 100%;
+            max-width: unset;
+        }
+    }
+}
+.social {
+    display: flex;
+    align-items: center;
+    a {
+        width: 37px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        svg {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    a + a {margin-left: 10px;}
+    .instagram {
+        height: 37px;
+    }
+    .facebook {
+        height: 33px;
+    }
+    .youtube{
+        height: 33px;
+    }
+    .tripadvisor {
+        width: 50px;
+        height: 37px;
+    }
+    .instagram svg path,
+    .facebook svg,
+    .tripadvisor svg g {
+        fill: #063841;
+        transition: all 0.5s;
+    }
+    .youtube svg {
+        stroke: #063841;
+        transition: all 0.5s;
+    }
+    .instagram:hover svg path,
+    .facebook:hover svg,
+    .tripadvisor:hover svg g {
+        fill: $red;
+    }
+    .youtube:hover svg {
+        stroke: $red;
+    }
+}

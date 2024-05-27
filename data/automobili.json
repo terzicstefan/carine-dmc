@@ -1,0 +1,174 @@
+{
+    "cars": [
+      {
+        "model": "Audi A4",
+        "characteristics": {
+          "mjenjac": "Automatski",
+          "gorivo": "Dizel",
+          "vrata": 4,
+          "kilometraza": "150000 km",
+          "snaga": "140 kW",
+          "zapremina": "1968 cm³",
+          "potrosnja": "5.6 l/100km",
+          "karoserija": "Limuzina",
+          "sjedista": "5"
+        },
+        "equipment": {
+          "navigacija": true,
+          "abs": true,
+          "esp": true,
+          "klima": true,
+          "elektricni_podizaci": true,
+          "parking_senzori": true,
+          "park_assist": false,
+          "start_stop_sistem": true
+        },
+        "images": [
+          "/images/audi_a4_1.jpg",
+          "/images/audi_a4_2.jpg",
+          "/images/audi_a4_3.jpg",
+          "/images/audi_a4_4.jpg",
+          "/images/audi_a4_5.jpg"
+        ],
+        "thumbnail": "/images/corolla.png",
+        "url":"/rent-a-car/details",
+        "cijena":"€50"
+      },
+      {
+        "model": "BMW 320d",
+        "characteristics": {
+          "mjenjac": "Manuelni",
+          "gorivo": "Dizel",
+          "vrata": 4,
+          "kilometraza": "120000 km",
+          "snaga": "135 kW",
+          "zapremina": "1995 cm³",
+          "potrosnja": "5.0 l/100km",
+          "karoserija": "Limuzina",
+          "sjedista": "5"
+        },
+        "equipment": {
+          "navigacija": true,
+          "abs": true,
+          "esp": true,
+          "klima": true,
+          "elektricni_podizaci": true,
+          "parking_senzori": true,
+          "park_assist": true,
+          "start_stop_sistem": true
+        },
+        "images": [
+          "/images/bmw_320d_1.jpg",
+          "/images/bmw_320d_2.jpg",
+          "/images/bmw_320d_3.jpg",
+          "/images/bmw_320d_4.jpg",
+          "/images/bmw_320d_5.jpg"
+        ],
+        "thumbnail": "/images/corolla.png",
+        "url":"/rent-a-car/details",
+        "cijena":"€50"
+      },
+      {
+        "model": "Mercedes-Benz C200",
+        "characteristics": {
+          "mjenjac": "Automatski",
+          "gorivo": "Benzin",
+          "vrata": 4,
+          "kilometraza": "80000 km",
+          "snaga": "150 kW",
+          "zapremina": "1991 cm³",
+          "potrosnja": "6.3 l/100km",
+          "karoserija": "Limuzina",
+          "sjedista": "5"
+        },
+        "equipment": {
+          "navigacija": true,
+          "abs": true,
+          "esp": true,
+          "klima": true,
+          "elektricni_podizaci": true,
+          "parking_senzori": true,
+          "park_assist": true,
+          "start_stop_sistem": true
+        },
+        "images": [
+          "/images/mercedes_c200_1.jpg",
+          "/images/mercedes_c200_2.jpg",
+          "/images/mercedes_c200_3.jpg",
+          "/images/mercedes_c200_4.jpg",
+          "/images/mercedes_c200_5.jpg"
+        ],
+        "thumbnail": "/images/corolla.png",
+        "url":"/rent-a-car/details",
+        "cijena":"€50"
+      },
+      {
+        "model": "Volkswagen Golf VII",
+        "characteristics": {
+          "mjenjac": "Manuelni",
+          "gorivo": "Benzin",
+          "vrata": 5,
+          "kilometraza": "90000 km",
+          "snaga": "110 kW",
+          "zapremina": "1498 cm³",
+          "potrosnja": "5.4 l/100km",
+          "karoserija": "Hatchback",
+          "sjedista": "5"
+        },
+        "equipment": {
+          "navigacija": true,
+          "abs": true,
+          "esp": true,
+          "klima": true,
+          "elektricni_podizaci": true,
+          "parking_senzori": true,
+          "park_assist": false,
+          "start_stop_sistem": true
+        },
+        "images": [
+          "/images/vw_golf_1.jpg",
+          "/images/vw_golf_2.jpg",
+          "/images/vw_golf_3.jpg",
+          "/images/vw_golf_4.jpg",
+          "/images/vw_golf_5.jpg"
+        ],
+        "thumbnail": "/images/corolla.png",
+        "url":"/rent-a-car/details"
+      },
+      {
+        "model": "Toyota Corolla",
+        "characteristics": {
+          "mjenjac": "Automatski",
+          "gorivo": "Hibrid",
+          "vrata": 4,
+          "kilometraza": "60000 km",
+          "snaga": "90 kW",
+          "zapremina": "1798 cm³",
+          "potrosnja": "4.2 l/100km",
+          "karoserija": "Limuzina",
+          "sjedista": "5"
+        },
+        "equipment": {
+          "navigacija": true,
+          "abs": true,
+          "esp": true,
+          "klima": true,
+          "elektricni_podizaci": true,
+          "parking_senzori": true,
+          "park_assist": true,
+          "start_stop_sistem": true
+        },
+        "images": [
+          "/images/toyota_corolla_1.jpg",
+          "/images/toyota_corolla_2.jpg",
+          "/images/toyota_corolla_3.jpg",
+          "/images/toyota_corolla_4.jpg",
+          "/images/toyota_corolla_5.jpg"
+        ],
+        "thumbnail": "/images/corolla.png",
+        "url":"/rent-a-car/details",
+        "cijena":"€50"
+      }
+    ]
+  }
+  
