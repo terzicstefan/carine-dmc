@@ -309,7 +309,7 @@ a[href^="mailto:"] {
 }
 .dropdown-date select {
   margin-left: -3px;
-  padding: 0px 16vh 0vh 0;
+  padding: 0px 17vh 0vh 0;
   margin-bottom: 1vh;
   font-size: 2vh;
   font-family: "Lato";
@@ -342,7 +342,7 @@ a[href^="mailto:"] {
 .dropdown-time select {
   margin-left: -3px;
   margin-bottom: 1vh;
-  padding: 0px 16.6vh 0vh 0;
+  padding: 0px 17.6vh 0vh 0;
   font-size: 2vh;
   font-family: "Lato";
   border: none;
@@ -398,7 +398,7 @@ a[href^="mailto:"] {
  .select-wrapper2::before {
   content: '';
   position: absolute;
-  right: -1vh; /* Adjust this value to position the arrow correctly */
+  right: 0vh; /* Adjust this value to position the arrow correctly */
   top: 40%;
   width: 1.7vh; /* Adjust width to match the arrow image size */
   height: 1.7vh; /* Adjust height to match the arrow image size */
