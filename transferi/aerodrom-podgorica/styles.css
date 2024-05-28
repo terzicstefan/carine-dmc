@@ -1,6 +1,19 @@
 .aerodrom-podgorica-main h2 {
   font-size: 4.8vh;
 }
+
+
+.white-head {
+  background-color: #fff;
+  border-bottom: 2px solid #1E6D3E;
+  height: 90px;
+}
+
+.smaller-logo {
+            width: 270px;
+            height: 60px;
+}
+
 .aerodrom-podgorica-main {
   padding: 5%;
   margin-top: 10vh;
@@ -356,7 +369,72 @@ a[href^="mailto:"] {
   font-family: "Lato";
   border: 1px solid #f2f7f6;
   border-radius: 12px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: none;
+  position: relative;
+  z-index: 1;
 }
+
+.select-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.select-wrapper2 {
+  position: relative;
+  display: inline-block;
+}
+
+#date-select, #time-select {
+  appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+}
+
+ /* Add the custom arrow */
+ .select-wrapper2::before {
+  content: '';
+  position: absolute;
+  right: -1vh; /* Adjust this value to position the arrow correctly */
+  top: 40%;
+  width: 1.7vh; /* Adjust width to match the arrow image size */
+  height: 1.7vh; /* Adjust height to match the arrow image size */
+  background: url('/images/arrow-down2.png') no-repeat center center;
+  background-size: contain;
+  transform: translateY(-50%);
+  pointer-events: none; /* Ensure it doesn't block interaction */
+}
+
+  /* Add the custom arrow */
+  .select-wrapper::before {
+    content: '';
+    position: absolute;
+    right: 9vh; /* Adjust this value to position the arrow correctly */
+    top: 70%;
+    width: 1.7vh; /* Adjust width to match the arrow image size */
+    height: 1.7vh; /* Adjust height to match the arrow image size */
+    background: url('/images/arrow-down.png') no-repeat center center;
+    background-size: contain;
+    transform: translateY(-50%);
+    pointer-events: none; /* Ensure it doesn't block interaction */
+}
+
+/* Add the vertical line */
+.select-wrapper::after {
+  content: '';
+  position: absolute;
+  right: 13vh; /* Position it before the arrow */
+  top: 70%;
+  width: 3px;
+  height: 4.5vh;
+  background: #F2F7F6;
+  transform: translateY(-50%);
+  pointer-events: none; /* Ensure it doesn't block interaction */
+}
+
 
 .luggage-option {
   margin: 1vh 0;

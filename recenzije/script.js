@@ -1,4 +1,17 @@
+  /*On scroll */
+  window.onscroll = ( () => {
+    let head = document.querySelector("header");
+  
+      if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+          head.classList.add("red-head");
+      } else {
+          head.classList.remove("red-head");
+      }
+  }); 
+ 
  // Store Swiper instance globally
+ 
+ 
  let swiper;
 
  // Function to create a review slide
@@ -120,4 +133,11 @@
     body.classList.toggle("no-scroll");
     html.classList.toggle("no-scroll");
   }
+
+
+
+
+
+
+
   /*Dodati logiku za formu */

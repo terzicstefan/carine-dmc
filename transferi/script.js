@@ -1,3 +1,15 @@
+ /*On scroll */
+ window.onscroll = ( () => {
+  let head = document.querySelector("header");
+
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        head.classList.add("red-head");
+    } else {
+        head.classList.remove("red-head");
+    }
+}); 
+ 
+ 
  // Store Swiper instance globally
  let swiper;
 

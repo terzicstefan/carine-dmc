@@ -1,3 +1,19 @@
+  /*On scroll */
+  window.onscroll = ( () => {
+    let head = document.querySelector("header");
+    let logo = document.querySelector(".logo");
+  
+      if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+          head.classList.add("white-head");
+          logo.classList.add("smaller-logo");
+
+      } else {
+          head.classList.remove("white-head");
+          logo.classList.remove("smaller-logo");
+
+      }
+  });
+
 function toggleBurger() {
   let head = document.getElementById("head");
   let html = document.querySelector("html");

@@ -3,6 +3,21 @@
   margin-top: 10vh;
 }
 
+
+/*Change header color on scroll*/
+
+.white-head {
+  background-color: #fff;
+  border-bottom: 2px solid #1E6D3E;
+  height: 90px;
+}
+
+.smaller-logo {
+            width: 270px;
+            height: 60px;
+}
+
+
 .rent-a-car-main h2 {
   font-size: 4.8vh;
 }
@@ -15,8 +30,6 @@
   margin: 1vh;
 }
 
-.head-nav li a,
-.head-nav summary,
 .head-contact a,
 .dark-color {
   color: #000 !important;
