@@ -1,18 +1,18 @@
-  /*On scroll */
-  window.onscroll = ( () => {
-    let head = document.querySelector("header");
-    let logo = document.querySelector(".logo");
+window.addEventListener('scroll', () => {
+  // Only execute on desktop
+  if (window.innerWidth >= 1024) { // Adjust 1024px as the breakpoint for desktop
+      let head = document.querySelector("header");
+      let logo = document.querySelector(".logo");
   
       if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
           head.classList.add("white-head");
           logo.classList.add("smaller-logo");
-
       } else {
           head.classList.remove("white-head");
           logo.classList.remove("smaller-logo");
-
       }
-  });
+  }
+});
 
 function toggleBurger() {
   let head = document.getElementById("head");
