@@ -69,6 +69,7 @@
 
    // Initialize Swiper
    swiper = new Swiper(".mainSwiper", {
+    lazy: true,
      effect: "coverflow",
      grabCursor: true,
      centeredSlides: true,

@@ -17,6 +17,7 @@ window.addEventListener('scroll', () => {
 
 
 var swiper = new Swiper(".mySwiper", {
+  lazy: true,
     spaceBetween: 10,
     slidesPerView: 4,
     freeMode: true,

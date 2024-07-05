@@ -11,12 +11,14 @@
 
 
 var swiper = new Swiper(".mySwiper", {
+  lazy: true,
     spaceBetween: 10,
     slidesPerView: 4,
     freeMode: true,
     watchSlidesProgress: true,
   });
   var swiper2 = new Swiper(".mySwiper2", {
+    lazy: true,
     spaceBetween: 10,
     navigation: {
       nextEl: ".button-next",

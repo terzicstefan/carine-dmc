@@ -28,7 +28,7 @@
 .kontakt-wrap {
   display: flex;
   background-color: #fff;
-  width: 80%;
+  width: 90%;
   height: 90vh;
   margin: auto;
   box-shadow: 0px 32px 65px #00000052;
@@ -180,7 +180,7 @@ form button:hover {
 #green-circle {
   position: absolute;
   top: 40%;
-  left: 10%;
+  left: 6%;
   width: 9.2vh;
   height: 9.2vh;
 }
@@ -190,7 +190,7 @@ form button:hover {
   width: 6vh;
   height: 7.8vh;
   top: 14%;
-  left: 11%;
+  left: 7%;
 }
 
 #red-circle2 {
@@ -198,7 +198,7 @@ form button:hover {
   width: 9.2vh;
   height: 9.2vh;
   top: 2%;
-  left: 11%;
+  left: 8%;
 }
 
 .map {

@@ -9,6 +9,7 @@ window.onscroll = ( () => {
 });
 
 let parentslider = new Swiper(".parent-slider", {
+    lazy: true,
     loop: true,
     slidesPerView: 1,
     noSwiping: true,

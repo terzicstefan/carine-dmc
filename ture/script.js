@@ -35,6 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // Function to initialize Swiper for each tour
   function initSwiper(swiperContainer) {
     new Swiper(swiperContainer, {
+      lazy: true,
       loop: true,
       navigation: {
         nextEl: swiperContainer.querySelector('.swiper-button-next'),

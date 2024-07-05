@@ -49,6 +49,7 @@ fetch('/data/blog.json')
 .then(data => {
   populateSwiper(data);
   const aboutSwiper = new Swiper('.aboutSwiper', {
+    lazy: true,
     slidesPerView: 4,
     spaceBetween: 30,
     freeMode: true,
